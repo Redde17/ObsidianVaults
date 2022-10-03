@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
+            "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 421.5
   },
   "right": {
     "id": "44c9aff42a202cf9",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md"
               }
             }
           }
@@ -125,14 +125,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "76e7c51300ac9f0f",
+  "active": "c30b71aab2fe6079",
   "lastOpenFiles": [
-    "Basi dati.md",
-    "2022-10-03.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
     "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md"
+    "img/Pasted image 20220930093236.png",
+    "Basi dati.md",
+    "2022-10-03.md"
   ]
 }
