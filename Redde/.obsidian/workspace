@@ -7,8 +7,12 @@
         "id": "76e7c51300ac9f0f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md"
+              }
             }
           }
         ]
@@ -122,9 +130,9 @@
   },
   "active": "76e7c51300ac9f0f",
   "lastOpenFiles": [
+    "Basi dati.md",
     "2022-10-03.md",
     "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
-    "Basi dati.md"
+    "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md"
   ]
 }
