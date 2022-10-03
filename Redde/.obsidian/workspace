@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "3f578add35a2bc21",
+    "type": "split",
+    "children": [
+      {
+        "id": "76e7c51300ac9f0f",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e99241ccc43032ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "f16f6793b6045a5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c30b71aab2fe6079",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "422fd8bc902ecb4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c21f0d8f56155e93",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "44c9aff42a202cf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "4dca7988a24b3320",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e791209b7076df42",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "11eac79f858fd19f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28d49745de787398",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7bb3c8d73df95146",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "76e7c51300ac9f0f",
+  "lastOpenFiles": [
+    "2022-10-03.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
+    "Basi dati.md"
+  ]
+}
