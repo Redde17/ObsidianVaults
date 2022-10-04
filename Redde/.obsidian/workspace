@@ -84,7 +84,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -127,7 +127,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c30b71aab2fe6079",
+  "active": "e791209b7076df42",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
