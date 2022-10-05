@@ -1,1 +1,0 @@
-# Organizzazione di un sistema elaborativo
