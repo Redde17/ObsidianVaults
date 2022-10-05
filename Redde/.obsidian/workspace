@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
+            "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e81b0ff9ef05730d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 300
   },
   "right": {
     "id": "44c9aff42a202cf9",
@@ -77,14 +89,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -94,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md"
               }
             }
           }
@@ -125,19 +137,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "76e7c51300ac9f0f",
+  "active": "e81b0ff9ef05730d",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
+    "conflict-files-obsidian-git.md",
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p2.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
-    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
     "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
-    "img/Pasted image 20220930093236.png",
     "Basi dati.md",
-    "2022-10-03.md"
+    "2022-10-03.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md"
   ]
 }
