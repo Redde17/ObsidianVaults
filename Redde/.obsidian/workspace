@@ -19,12 +19,8 @@
         "id": "e81b0ff9ef05730d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -89,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Organizzazione di un sistema elaborativo.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -140,7 +132,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e81b0ff9ef05730d",
+  "active": "c30b71aab2fe6079",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
     "conflict-files-obsidian-git.md",

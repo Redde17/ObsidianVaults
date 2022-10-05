@@ -40,3 +40,7 @@ Una visione leggermente diversa di un sistema operativo enfatizza la necessità 
 In generale, non esiste una definizione completa ed esauriente. I sistemi operativi esistono poiché rappresentano una soluzione ragionevole al problema di realizzare un sistema elaborativo che si possa impiegare facilmente, per eseguire i programmi e agevolare la soluzione dei problemi degli utenti. È proprio a questo scopo che viene realizzato l’hardware dei calcolatori; ma, poiché il solo hardware non è molto facile da utilizzare, sono stati sviluppati i programmi applicativi. Questi programmi sono diversi tra loro, ma richiedono alcune funzioni comuni, per esempio il controllo dei dispositivi di i/o. Tali funzioni comuni, di controllo e assegnazione delle risorse, sono state racchiuse in un unico insieme di programmi: il sistema operativo.
 
 Non esiste neppure una definizione universalmente accettata di che cosa faccia parte di un sistema operativo poiché le funzionalitá di un sistema operativo variano da sistema a sistema.
+
+In breve, per i nostri scopi, il sistema operativo include il kernel sempre in esecuzione, i framework middleware che facilitano lo sviluppo di applicazioni e forniscono altre funzionalità e i programmi di sistema che contribuiscono alla gestione del sistema mentre è in esecuzione.
+
+uno
