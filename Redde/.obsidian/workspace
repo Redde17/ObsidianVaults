@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md"
+              }
             }
           }
         ]
