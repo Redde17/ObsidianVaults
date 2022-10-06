@@ -31,6 +31,20 @@ La definizione di **multiprocessore** si è evoluta nel tempo e include ora i **
 
 Nei sistemi multicore ogni **core** ha il proprio insieme di reistri e la propria cache spesso nota come cache di **livello 1** o **L1**. Esiste una cache di **livello 2** o **L2** che è locale al chip ma è condivisa tra i core.
 La maggior parte delle architetture adotta un sistema con una combinazione di cache locali e condivise di dimensione e velocità diversa.
- A prescindere da considerazioni architetturali come la competizione per l’uso della cache, della memoria e del bus, queste cpu multicore appaiono al sistema operativo come _N_ normali processori
+ A prescindere da considerazioni architetturali come la competizione per l’uso della cache, della memoria e del bus, queste cpu multicore appaiono al sistema operativo come _N_ normali processori.
 
 ![[Pasted image 20221006112156.png]]
+
+### NUMA
+Aggiungere nuove cpu a un multiprocessore ne aumenta la potenza di calcolo; tuttavia, come suggerito in precedenza, il concetto non scala molto bene e una volta aggiunte troppe cpu il conflitto per il bus di sistema diventa un collo di bottiglia e le prestazioni iniziano a peggiorare. Un approccio alternativo è quello di fornire a ciascuna cpu (o a ciascun gruppo di cpu) la propria memoria locale accessibile per mezzo di un bus locale piccolo e veloce. Ulteriormente le cpu sono collegate tra loro da un'interconnessione di sistema condivisa. Questo approccio è noto come accesso **non uniforme alla memoria o NUMA.** 
+
+Figura 1.10
+
+Un potenziale svantaggio di un **sistema numa** è la maggior latenza quando una cpu deve accedere alla memoria remota attraverso l’interconnessione di sistema, con un conseguente possibile peggioramento delle prestazioni.
+I sistemi operativi possono minimizzare questo svantaggio del numa attraverso un attento scheduling della cpu e un’accurata gestione della memoria.
+Poiché i sistemi numa possono scalare per ospitare un numero elevato di processori, stanno diventando sempre più diffusi nei server e nei sistemi di elaborazione ad alte prestazioni.
+
+### Server blade
+I cosiddetti server blade, che accolgono nello stesso contenitore fisico le schede del processore, dell’i/o e della rete. A differenza dei tradizionali sistemi multiprocessore, nei server blade ogni scheda dotata di processore avvia ed esegue in maniera indipendente il proprio sistema operativo. Alcune di queste schede, poi, possono essere a loro volta multiprocessore, il che rende più labile la distinzione tra questi diversi tipi di computer.
+
+## Cluster di elaboratori
