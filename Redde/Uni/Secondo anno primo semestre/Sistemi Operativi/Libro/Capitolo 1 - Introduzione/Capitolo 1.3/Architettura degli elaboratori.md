@@ -12,7 +12,7 @@ Nei moderni computer, dai dispositivi mobili ai server, i sistemi multiprocessor
 Tuttavia con _N_ unità di elaborazione la velocità non aumenta tuttavia di _N_ volte, ma in misura minore.
 Infatti, se più unità di elaborazione collaborano nell’esecuzione di un compito, è necessario un certo lavoro supplementare (_overhead_) per garantire che tutti i componenti funzionino correttamente. Questo overhead, unito alla contesa per le risorse condivise, riduce il guadagno atteso dalla disponibilità di più unità di elaborazione.
 
-I sistemi più comuni utilizzano la multielaborazione simmetrica (_symmetric ­multiprocessing_, smp), in cui ogni processore, alla pari degli altri, è abilitato all’esecuzione di tutte le operazioni del sistema, incluse le funzioni del sistema operativo e i processi utente.
+I sistemi più comuni utilizzano la multielaborazione simmetrica (_symmetric multiprocessing_, smp), in cui ogni processore, alla pari degli altri, è abilitato all’esecuzione di tutte le operazioni del sistema, incluse le funzioni del sistema operativo e i processi utente.
 
 ![[Pasted image 20221006093013.png]]
 
@@ -23,4 +23,14 @@ Il vantaggio offerto da questo modello è che molti processi sono eseguibili con
 La definizione di **multiprocessore** si è evoluta nel tempo e include ora i **sistemi multicore**, in cui più unità di calcolo (core) risiedono su un singolo chip. Questi sistemi possono essere più efficienti rispetto a più chip dotati di una singola unità di calcolo, perché la comunicazione all’interno di un singolo chip è più veloce rispetto a quella tra un chip e un altro. Inoltre, un chip dotato di diversi core usa molta meno potenza rispetto a diversi chip con un singolo core e ciò è particolarmente importante in dispositivi mobili e laptop.
 
 >Componenti di un sistema di elaborazione
->**CPU**
+>**CPU**: componente hardware che esegue istruzioni.
+>**Processore**: chip che contiene una o più cpu.
+>**Unità di calcolo (core)**: unità di elaborazione di base della cpu.
+>**Multicore**: Architettura che include più unità di calcolo sulla stessa cpu.
+>**Multiprocessore**: che include più processori.
+
+Nei sistemi multicore ogni **core** ha il proprio insieme di reistri e la propria cache spesso nota come cache di **livello 1** o **L1**. Esiste una cache di **livello 2** o **L2** che è locale al chip ma è condivisa tra i core.
+La maggior parte delle architetture adotta un sistema con una combinazione di cache locali e condivise di dimensione e velocità diversa.
+ A prescindere da considerazioni architetturali come la competizione per l’uso della cache, della memoria e del bus, queste cpu multicore appaiono al sistema operativo come _N_ normali processori
+-- immagine figura 1.9
+
