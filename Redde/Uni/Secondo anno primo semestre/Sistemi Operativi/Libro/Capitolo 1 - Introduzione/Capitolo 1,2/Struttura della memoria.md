@@ -37,5 +37,11 @@ I dispositivi più comunemente impiegati a questo scopo sono **il disco magnetic
  Molti programmi fanno uso del disco come sorgente e destinazione delle informazioni elaborate. Quindi, una corretta gestione delle unità a disco è di fondamentale importanza per un sistema elaborativo.
 *(Altri tipi di memoria possono essere, cache, cd-rom, blu-ray e nastri magnetici)*
 
+![[Pasted image 20221006082413.png]]
+La memoria viene gerarchizzata in base a dimensione e velocità di accesso, più si sale più la memoria è veloce ma di minore dimensione.
 
-
+Dal momento che la memorizzazione gioca un ruolo importante nella struttura del sistema operativo useremo la seguente terminologia.
+- **La memoria volatile** verrà indicata semplicemente come **memoria**. Se sarà necessario enfatizzare un particolare tipo di dispositivo di memorizzazione (per esempio un registro), lo faremo esplicitamente.
+- **La memoria non volatile**, che indicheremo con l’acronimo **nvs** (_nonvolatile storage_), conserva il suo contenuto quando viene persa l’alimentazione. La maggior parte del tempo che dedicheremo a nvs riguarderà la memoria secondaria, classificabile in due diverse tipologie:
+	- **Meccanica**. Alcuni esempi di tali sistemi di memorizzazione sono gli hdd, i dischi ottici, la memoria olografica e il nastro magnetico.
+	- **Elettrica**. Alcuni esempi di tali sistemi di archiviazione sono la memoria flash, la fram, la nram e gli ssd. La memoria elettrica verrà indicata come nvm.
