@@ -48,3 +48,18 @@ Poiché i sistemi numa possono scalare per ospitare un numero elevato di proces
 I cosiddetti server blade, che accolgono nello stesso contenitore fisico le schede del processore, dell’i/o e della rete. A differenza dei tradizionali sistemi multiprocessore, nei server blade ogni scheda dotata di processore avvia ed esegue in maniera indipendente il proprio sistema operativo. Alcune di queste schede, poi, possono essere a loro volta multiprocessore, il che rende più labile la distinzione tra questi diversi tipi di computer.
 
 ## Cluster di elaboratori
+I cluster di elaboratori (_clustered systems_) o cluster sono un altro tipo di sistemi multiprocessore, basati sull’uso congiunto di più cpu, ma differiscono dai sistemi multiprocessore descritti nel paragrafo precedente per il fatto che sono composti di due o più calcolatori completi – detti nodi – collegati tra loro. Sistemi di questo tipo sono detti debolmente accoppiati (_loosely coupled_).
+Pur non essendoci una definizione precisa per tale sistema, la definizione generalmente accettata è che si tratta di calcolatori che condividono la memoria di massa connessi per mezzo di una rete locale o da connessioni più veloci.
+
+Di solito si adotta il clustering per offrire un’elevata disponibilità. Ciascun calcolatore esegue uno strato software di gestione del cluster; ogni nodo può tenere sotto controllo (attraverso la lan) uno o più degli altri nodi. Se il nodo controllato si guasta, il calcolatore che lo sta supervisionando può prendere il controllo della sua memoria e riavviare le applicazioni che erano in esecuzione. Gli utenti e i client delle applicazioni notano solo una breve interruzione del servizio.
+
+Questi sistemi sono preferiti per la loro capacità nel **fault-toleration** che riescono a offrire un servizio proporzionale alla quantità di hardware ancora in funzione, ovvero sono capaci di fare **degrado controllato** (**graceful degradation**)
+
+I **cluster di elaboratori** sono strutturabili in modo sia **asimmetrico sia simmetrico**. 
+Nei **cluster asimmetrici** un calcolatore rimane nello stato di **attesa attiva (_hot standby mode_)** mentre l’altro esegue le applicazioni. Il calcolatore in **_hot standby_** non fa altro che monitorare il server attivo. Se questo presenta un problema, il calcolatore di controllo diventa il server attivo. 
+**Nei cluster simmetrici** due o più calcolatori eseguono le applicazioni e allo stesso tempo si controllano reciprocamente; in questo modo si ottiene una maggiore efficienza, poiché si utilizzano meglio le risorse, ma ciò richiede che siano disponibili più applicazioni da eseguire.
+
+I cluster, essendo formati da diversi sistemi di computer collegati in rete, possono anche essere utilizzati per ottenere **ambienti di elaborazione ad alte prestazioni (_high-performance computing_)**.
+ Tuttavia, le applicazioni devono essere scritte specificatamente in modo da trarre vantaggio dal cluster sfruttando una tecnica chiamata **parallelizzazione (_parallelization_)**.
+
+--Continua sul libro per ulteriori informazioni sui cluster
