@@ -32,5 +32,5 @@ La definizione di **multiprocessore** si è evoluta nel tempo e include ora i **
 Nei sistemi multicore ogni **core** ha il proprio insieme di reistri e la propria cache spesso nota come cache di **livello 1** o **L1**. Esiste una cache di **livello 2** o **L2** che è locale al chip ma è condivisa tra i core.
 La maggior parte delle architetture adotta un sistema con una combinazione di cache locali e condivise di dimensione e velocità diversa.
  A prescindere da considerazioni architetturali come la competizione per l’uso della cache, della memoria e del bus, queste cpu multicore appaiono al sistema operativo come _N_ normali processori
--- immagine figura 1.9
 
+![[Pasted image 20221006112156.png]]
