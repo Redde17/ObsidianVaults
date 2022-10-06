@@ -9,18 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
+            "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1,2/Struttura della memoria.md",
             "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "e81b0ff9ef05730d",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -69,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "44c9aff42a202cf9",
@@ -85,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1,2/Struttura della memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1,2/Struttura della memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1,2/Struttura della memoria.md"
               }
             }
           }
@@ -136,11 +129,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c30b71aab2fe6079",
+  "active": "76e7c51300ac9f0f",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Sommario.md",
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Che cosa fa un sistema operativo.md",
     "conflict-files-obsidian-git.md",
-    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p2.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
     "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",

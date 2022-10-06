@@ -26,3 +26,16 @@ La tipica sequenza d’esecuzione di un’istruzione, in un sistema con architet
 Quindi si decodifica l’istruzione che eventualmente può richiedere il trasferimento di alcuni operandi dalla memoria in alcuni registri interni. Una volta terminata l’esecuzione dell’istruzione sugli operandi, il risultato si può scrivere nella memoria. 
 >L’unità di memoria “vede” soltanto un flusso di indirizzi di memoria; non importa né il modo in cui questi sono stati generati né a che cosa fanno riferimento.
 
+Idealmente si vorrebbe che sia i programmi sia i dati da essi trattati risiedessero in modo permanente nella memoria centrale. 
+Questo non è possibile per i seguenti due motivi:
+1. La capacità della memoria centrale non è di solito sufficiente a contenere in modo permanente tutti i programmi e i dati richiesti;
+2. La memoria centrale è un dispositivo di memorizzazione _volatile_, che perde il proprio contenuto quando l’alimentazione elettrica viene spenta o si interrompe.
+Per queste ragioni la maggior parte dei sistemi elaborativi comprende una **memoria secondaria** come estensione della memoria centrale. 
+La caratteristica fondamentale di questi dispositivi è la capacità di conservare in modo permanente grandi quantità di informazioni.
+
+I dispositivi più comunemente impiegati a questo scopo sono **il disco magnetico (_hard-disk drive_, hdd) e i dispositivi di memoria non volatile (nvm)**.
+ Molti programmi fanno uso del disco come sorgente e destinazione delle informazioni elaborate. Quindi, una corretta gestione delle unità a disco è di fondamentale importanza per un sistema elaborativo.
+*(Altri tipi di memoria possono essere, cache, cd-rom, blu-ray e nastri magnetici)*
+
+
+
