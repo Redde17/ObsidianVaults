@@ -4,12 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "76e7c51300ac9f0f",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        "id": "1ac135c14b2da4d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76e7c51300ac9f0f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5c5490c5e6dd03ca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -27,7 +44,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
             }
           },
           {
@@ -120,7 +139,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c30b71aab2fe6079",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "5c5490c5e6dd03ca",
   "lastOpenFiles": [
     "2022-10-13.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Struttura della memoria.md",
