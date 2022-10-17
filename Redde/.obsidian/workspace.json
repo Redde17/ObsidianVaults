@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md"
               }
             }
           }
@@ -172,6 +172,8 @@
   },
   "active": "58dcd67f2c46cf47",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Untitled.md",
@@ -179,8 +181,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Struttura della memoria.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.4/Attività del sistema operativo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.3/Architettura degli elaboratori.md",
-    "conflict-files-obsidian-git.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Struttura di IO.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Interruzioni.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
