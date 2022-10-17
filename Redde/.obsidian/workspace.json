@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/Untitled.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/Untitled.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/Untitled.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/Untitled.md"
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md"
               }
             }
           }
@@ -158,8 +158,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c30b71aab2fe6079",
+  "active": "a4b75c57f4cf520d",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/Untitled.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Untitled.md",
     "2022-10-13.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Struttura della memoria.md",
@@ -168,7 +169,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.3/Architettura degli elaboratori.md",
     "conflict-files-obsidian-git.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Struttura di IO.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Interruzioni.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.5/Gestione dei file.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Interruzioni.md"
   ]
 }
