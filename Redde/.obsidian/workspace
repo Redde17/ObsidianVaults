@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+            "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-18 PO p1.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "44c9aff42a202cf9",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-18 PO p1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-18 PO p1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md"
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-18 PO p1.md"
               }
             }
           }
@@ -131,8 +130,8 @@
   },
   "active": "638aaba96d3e947e",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.1/Servizi di un sistema operativo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.1/Servizi di un sistema operativo.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-13 OOP p1.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Interruzioni.md",
