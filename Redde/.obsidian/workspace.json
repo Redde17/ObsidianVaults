@@ -8,60 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76e7c51300ac9f0f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "5c5490c5e6dd03ca",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
-          },
-          {
-            "id": "a4b75c57f4cf520d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58dcd67f2c46cf47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85330806020b49fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f8c5a519bba1d5bc",
             "type": "leaf",
             "state": {
@@ -72,9 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c6c1fdec4defb74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f54db9ea71fd3de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md"
               }
             }
           }
@@ -194,17 +164,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f8c5a519bba1d5bc",
+  "active": "0f54db9ea71fd3de",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.1 System call.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Sommario.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.1/Servizi di un sistema operativo.md",
-    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-06 BD p1.md",
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 SO p1.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Untitled.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.1/Che cosa fa un sistema operativo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md"
   ]
 }
