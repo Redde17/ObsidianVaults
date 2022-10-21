@@ -2,21 +2,43 @@
   "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Uni/Secondo anno primo semestre/Daily to revise\"",
+      "color": {
+        "a": 1,
+        "rgb": 12912391
+      }
+    },
+    {
+      "query": "path:\"Uni/Secondo anno primo semestre/Sistemi Operativi\"",
+      "color": {
+        "a": 1,
+        "rgb": 14365550
+      }
+    },
+    {
+      "query": "path:\"Uni/Secondo anno primo semestre/Basi Dati\"",
+      "color": {
+        "a": 1,
+        "rgb": 14731602
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.2,
-  "nodeSizeMultiplier": 1.35252808988764,
-  "lineSizeMultiplier": 2.53623595505618,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1.80989583333333,
+  "lineSizeMultiplier": 2.9328125,
   "collapse-forces": false,
-  "centerStrength": 0.508426966292135,
-  "repelStrength": 10.7303370786517,
+  "centerStrength": 0.494791666666667,
+  "repelStrength": 10.5208333333333,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.5382773651237368,
+  "linkDistance": 152,
+  "scale": 0.7546556601634619,
   "close": true
 }

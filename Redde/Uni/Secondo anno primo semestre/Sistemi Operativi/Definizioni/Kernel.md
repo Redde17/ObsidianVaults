@@ -1,0 +1,7 @@
+Un **kernel** costituisce il **nucleo** di un sistema operativo ovvero il software che fornisce un accesso sicuro e controllato dell'hardware ai processi in esecuzione sul computer. Dato che possono eventualmente esserne eseguiti simultaneamente più di uno, il kernel può avere anche la responsabilità di assegnare una porzione di tempo-macchina (scheduling) e di accesso all'hardware a ciascun programma (_multitasking_).
+
+I kernel si possono classificare in quattro categorie, in base al grado di astrazione dell'hardware:
+-   _Kernel monolitici_, che implementano direttamente una completa astrazione dell'hardware sottostante.
+-   _Microkernel_, che forniscono un insieme ristretto e semplice di astrazione dell'hardware e usano software (chiamati [device driver](https://it.wikipedia.org/wiki/Device_driver "Device driver") o [server](https://it.wikipedia.org/wiki/Server "Server")) per fornire maggiori funzionalità.
+-   _Kernel ibridi_ (o _microkernel modificati_), che si differenziano dai microkernel puri per l'implementazione di alcune funzioni aggiuntive al fine di incrementare le prestazioni.
+-   _Esokernel_, che rimuovono tutte le limitazioni legate all'astrazione dell'hardware e si limitano a garantire l'accesso concorrente allo stesso, permettendo alle singole applicazioni di implementare autonomamente le tradizionali astrazioni del sistema operativo per mezzo di speciali libreria.
