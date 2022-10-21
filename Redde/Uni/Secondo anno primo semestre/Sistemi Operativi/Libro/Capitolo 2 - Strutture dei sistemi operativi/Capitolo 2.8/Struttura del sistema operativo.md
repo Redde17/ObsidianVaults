@@ -3,6 +3,11 @@
 ### Struttura monolitica
 La struttura più semplice per l’organizzazione di un sistema operativo è l’assenza di struttura: tutte le funzionalità del kernel vengono inserite in un singolo file binario statico che viene eseguito in un unico spazio d’indirizzamento. Questo approccio, noto come struttura monolitica, è una tecnica comune di progettazione dei sistemi operativi.
 
+Un esempio di questa strutturazione limitata è il sistema operativo unix originale, che consiste di due parti separate: il kernel e i programmi di sistema. Il kernel è ulteriormente suddiviso in una serie di interfacce e driver dei dispositivi, aggiunti e ampliati nel corso dell’evoluzione di unix.
+
+![[Pasted image 20221021163210.png]]
+
+
 ### Approccio stratificato
 
 ### Microkernel
