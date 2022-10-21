@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Categorie di chiamate di sistema
 
 Le chiamate di sistema sono classificabili approssimativamente in sei categorie principali:
@@ -28,6 +27,10 @@ Le chiamate di sistema sono classificabili approssimativamente in sei categorie 
 
 
 ### Controllo dei processi
+
+
+
+
 
 =======
 Le chiamate di sistema (_system call_) costituiscono un’interfaccia per i servizi resi disponibili dal sistema operativo. Tali chiamate sono generalmente disponibili sotto forma di routine scritte in c o c++, sebbene per alcuni compiti di basso livello, come quelli che comportano un accesso diretto all’hardware, possa essere necessario il ricorso al linguaggio assembly.
