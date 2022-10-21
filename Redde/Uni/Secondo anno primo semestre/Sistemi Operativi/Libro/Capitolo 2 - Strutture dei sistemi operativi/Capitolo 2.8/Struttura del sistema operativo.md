@@ -7,7 +7,28 @@ Un esempio di questa strutturazione limitata è il sistema operativo unix origin
 
 ![[Pasted image 20221021163210.png]]
 
+Il sistema operativo Linux è basato su unix ed è strutturato in modo simile.
+![[Pasted image 20221021164835.png]]
+Le applicazioni utilizzano in genere la libreria standard del linguaggio C, glibc, quando comunicano con il kernel mediante l’interfaccia alle chiamate di sistema. Il kernel Linux è monolitico, in quanto viene eseguito interamente in modalità kernel in un unico spazio d’indirizzamento ma è dotato di una struttura modulare che consente di modificare il kernel durante l’esecuzione.
+
+Nonostante l’apparente semplicità dei kernel monolitici, essi sono difficili da implementare ed estendere. I kernel monolitici hanno però un netto vantaggio in termini di prestazioni: l’interfaccia alle chiamate di sistema presenta un overhead molto ridotto e la comunicazione all’interno del kernel è veloce. Pertanto, nonostante gli svantaggi dei kernel monolitici, la loro velocità e la loro efficienza giustificano la presenza di elementi di una struttura di questo tipo nei sistemi operativi unix, Linux e Windows.
 
 ### Approccio stratificato
+Un sistema monolitico viene anche chiamato sistema strettamente accoppiato (_tightly coupled_), perché le modifiche a una parte del sistema possono avere effetti di ampia portata su altre parti. In alternativa è possibile progettare un sistema debolmente accoppiato (_loosely coupled_), suddiviso in componenti separati più piccoli con funzionalità specifiche e limitate. Tutti questi componenti costituiscono nel loro insieme il kernel. Il vantaggio di questo approccio modulare è che i cambiamenti in un componente influiscono solo su quel componente e su nessun altro, consentendo a chi implementa il sistema una maggiore libertà nella creazione e modifica dei meccanismi interni.
+
+Vi sono molti modi per rendere modulare un sistema operativo. Uno di essi è l’approccio stratificato, secondo il quale il sistema è suddiviso in un certo numero di livelli o strati: il più basso corrisponde all’hardware (strato 0), il più alto all’interfaccia con l’utente (strato _N_).
+![[Pasted image 20221021165137.png]]
+
+Lo strato di un sistema operativo è la realizzazione di un oggetto astratto, che incapsula i dati e le operazioni che trattano tali dati. Un tipico strato di sistema operativo (chiamiamolo _M_) è composto da strutture dati e da un insieme di routine richiamabili dagli strati di livello più alto. Lo strato _M_, a sua volta, è in grado di invocare operazioni degli strati di livello inferiore.
+
+Il vantaggio principale offerto da questo metodo è dato dalla semplicità di progettazione e di debugging. Gli strati sono composti in modo che ciascuno usi solo funzioni (operazioni) e servizi appartenenti a strati di livello inferiore. Questo approccio semplifica il debugging e la verifica del sistema. Il primo strato si può mettere a punto senza intaccare il resto del sistema, poiché per realizzare le proprie funzioni usa, per definizione, solo lo strato hardware, che si presuppone sia corretto. Passando al secondo strato si presume, dopo la messa a punto, la correttezza del primo. Il procedimento si ripete per ogni strato. Se si riscontra un errore, questo deve trovarsi in quello strato, poiché gli strati inferiori sono già stati corretti; quindi la suddivisione in strati semplifica la progettazione e la realizzazione di un sistema.
+
+I sistemi stratificati sono stati utilizzati con successo nelle reti di computer (come tcp/ip) e in applicazioni web. Tuttavia, relativamente pochi sistemi operativi utilizzano un approccio a strati puro. Una causa di questo scarso utilizzo risiede nella difficoltà di definire in modo appropriato le funzionalità di ogni strato. Inoltre, le prestazioni complessive di questi sistemi risultano scarse a causa dell’overhead dovuto al fatto che la richiesta di un servizio del sistema operativo da parte di un programma utente deve attraversare più strati. Tuttavia, una parziale stratificazione della struttura è comune nei sistemi operativi contemporanei. Generalmente questi sistemi hanno un numero inferiore di strati, ognuno con più funzioni, e offrono la maggior parte dei vantaggi del codice modulare evitando i difficili problemi connessi alla definizione e all’interazione degli strati.
 
 ### Microkernel
+Il sistema unix originale aveva una struttura monolitica. A mano a mano che il sistema operativo unix è stato esteso, il kernel è cresciuto notevolmente, diventando sempre più difficile da gestire. Verso la metà degli anni ’80 un gruppo di ricercatori della Carnegie Mellon University progettò e realizzò un sistema operativo, Mach, con il kernel strutturato in moduli secondo il cosiddetto orientamento a microkernel. Seguendo questo orientamento si progetta il sistema operativo rimuovendo dal kernel tutti i componenti non essenziali, realizzandoli come programmi di livello utente e di sistema. Ne risulta un kernel di dimensioni assai inferiori. Non c’è un’opinione comune su quali servizi debbano rimanere nel kernel e quali si debbano realizzare nello spazio utente. Tuttavia, in generale, un microkernel offre i servizi minimi di gestione dei processi, della memoria e di comunicazione.
+
+Architettura tipica di un microkernel.
+![[Pasted image 20221021170040.png]]
+
+Lo scopo principale del microkernel è fornire funzioni di comunicazione tra i programmi client e i vari servizi, anch’essi in esecuzione nello spazio utente. La comunicazione viene realizzata mediante scambio di messaggi. Per accedere a un file, per esempio, un programma client deve interagire con il file server; ciò non avviene mai in modo diretto, ma tramite uno scambio di messaggi con il microkernel.
