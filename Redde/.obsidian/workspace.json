@@ -60,9 +60,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8c5a519bba1d5bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md"
               }
             }
           }
@@ -182,11 +194,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "85330806020b49fe",
+  "active": "f8c5a519bba1d5bc",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.1 System call.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Sommario.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.1/Servizi di un sistema operativo.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",

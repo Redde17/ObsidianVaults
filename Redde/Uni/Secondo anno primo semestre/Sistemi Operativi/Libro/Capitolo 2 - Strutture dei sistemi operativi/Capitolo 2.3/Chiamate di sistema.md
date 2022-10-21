@@ -27,9 +27,17 @@ Le chiamate di sistema sono classificabili approssimativamente in sei categorie 
 
 
 ### Controllo dei processi
+Un sistema operativo puó mettere a disposizione ad un processo diverse chiamate per il controllo del sistema. 
+Un programma puó fermarsi in modo sia normale **end()** sia in modo anomalo **abort()**.
+Per le fermate anomale il programma puó anche fare una copia dell'errore in un file (dump) e tramite programmi di debug si puó arrivare all'errore che ha causato l'interruzione anomale.
+Un processo che esegue un programma puó richiedere di caricare ed eseguire un altro programma (**load()** ed **execute()**).
+ In questo modo l’interprete dei comandi esegue un programma in seguito a una richiesta impartita, per esempio, da un comando utente, oppure dal clic di un mouse o da un comando batch. È interessante chiedersi dove si debba restituire il controllo una volta terminato il programma caricato. La questione è legata alle eventualità che il programma attuale sia terminato, sia stato sospeso oppure che abbia continuato l’esecuzione in modo concorrente con il nuovo programma.
 
+Se al termine del nuovo programma il controllo rientra nel programma attuale, si deve salvare l’immagine della memoria del programma attuale, creando così effettivamente un meccanismo con cui un programma può richiamare un altro programma. Se entrambi i programmi continuano l’esecuzione in modo concorrente, si è creato un nuovo processo da eseguire in multiprogrammazione. A questo scopo spesso si ha una chiamata di sistema specifica (**create_process()**).
 
+Quando si crea un nuovo processo, o anche un insieme di processi, è necessario mantenerne il controllo; ciò richiede la capacità di determinare e reimpostare gli attributi di un processo, compresi la sua priorità, il suo tempo massimo d’esecuzione e così via (**get_process_attributes()** e **set_process_attributes()**). Inoltre, può essere necessario terminare un processo creato, se si riscontra che non è corretto o se la sua esecuzione non è più utile (**terminate_process()**).
 
+Una volta creati, può essere necessario attendere che i processi terminino la loro esecuzione. Quest’attesa si può impostare per un certo periodo di tempo (**wait_time()**), ma è più probabile che si preferisca attendere che si verifichi un dato evento (**wait_event()**). In tal caso i processi devono segnalare il verificarsi di quell’evento (**signal_event()**).
 
 
 =======
