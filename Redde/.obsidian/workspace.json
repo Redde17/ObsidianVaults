@@ -39,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md"
+              }
             }
           }
         ]
@@ -155,12 +160,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f8c5a519bba1d5bc",
+  "active": "5c6c1fdec4defb74",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
     "microkernel.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Kernel.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-06 BD p1.md",
