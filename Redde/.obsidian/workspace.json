@@ -76,6 +76,30 @@
             }
           },
           {
+            "id": "5945e9815ff09816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57aa2a474c2b9978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "03554d3baae069c4",
             "type": "leaf",
             "state": {
@@ -88,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -154,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md"
               }
             }
           }
@@ -208,8 +232,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f2350ac0e24b77d6",
+  "active": "57aa2a474c2b9978",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Heap.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
@@ -217,8 +243,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.4/Servizi di sistema.md",
-    "microkernel.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md"
   ]
 }
