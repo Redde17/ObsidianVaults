@@ -1,0 +1,1 @@
+Memoria temporaneamente utilizzata durante le chiamate di funzioni (per esempio, per i parametri della funzione, gli indirizzi di ritorno e le variabili locali).

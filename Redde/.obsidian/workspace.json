@@ -8,49 +8,111 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76e7c51300ac9f0f",
+            "id": "f8c5a519bba1d5bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           },
           {
-            "id": "5c5490c5e6dd03ca",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
-          },
-          {
-            "id": "a4b75c57f4cf520d",
+            "id": "5c6c1fdec4defb74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "58dcd67f2c46cf47",
+            "id": "030257430077f24c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7e4a6d0b65da24b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f1340a52c5afd1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2350ac0e24b77d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5945e9815ff09816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57aa2a474c2b9978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03554d3baae069c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -116,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md"
               }
             }
           }
@@ -170,17 +232,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "58dcd67f2c46cf47",
+  "active": "57aa2a474c2b9978",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Sommario.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.1/Servizi di un sistema operativo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.3/Chiamate di sistema.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Appunti utili per la prima prova intercorso/1.0 Servizi per l'utente generico.md",
-    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-04 OOP p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Heap.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Untitled.md",
-    "2022-10-13.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Struttura della memoria.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md"
   ]
 }

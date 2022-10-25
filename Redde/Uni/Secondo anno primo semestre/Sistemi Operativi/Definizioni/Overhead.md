@@ -1,0 +1,1 @@
+Il **tempo di overhead** è un parametro fondamentale per lo studio delle prestazioni di un sistema operativo. Esso rappresenta il tempo medio di CPU necessario per eseguire i moduli del [kernel](https://it.wikipedia.org/wiki/Kernel "Kernel"). È spesso fornito in percentuale rispetto al tempo totale di utilizzo della CPU. Si può calcolare con:
