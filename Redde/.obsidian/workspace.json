@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Operazioni sui processi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Creazione di un processo.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Operazioni sui processi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Creazione di un processo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Operazioni sui processi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Creazione di un processo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Operazioni sui processi.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Creazione di un processo.md"
               }
             }
           }
@@ -270,9 +270,9 @@
   },
   "active": "1444a1ff954e6154",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Operazioni sui processi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Creazione di un processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Operazioni sui processi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.2/Scheduling dei processi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.2/Cambio di contesto.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
