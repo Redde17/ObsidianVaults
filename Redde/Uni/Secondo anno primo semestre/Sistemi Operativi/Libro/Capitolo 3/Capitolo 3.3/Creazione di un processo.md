@@ -28,6 +28,5 @@ Ci sono due possibilità anche per quel che riguarda lo spazio d’indirizzi del
 
 Funzionamento del comando fork() nei sistemi unix
 ![[Pasted image 20221027171701.png]]
-La chiamata fork() genera un processo figlio copiando il processo padre ma assegnando al 
-a chiamata di sistema fork() riporta il valore zero nel nuovo processo (il figlio), ma riporta l’identificatore del processo figlio (il pid diverso da zero) nel processo genitore.
-processo figlio il pid a 0, una volta fatto ció il processo figlio esegue il comando exec() iniziando a svolgere i suoi comandi.
+La chiamata fork() genera un processo figlio copiando il processo padre restituendo 
+a chiamata di sistema fork() il valore zero nel nuovo processo (il figlio), ma riporta l’identificatore del processo figlio (il pid diverso da zero) nel processo genitore, una volta fatto ció il processo figlio esegue il comando exec() iniziando a svolgere i suoi comandi.
