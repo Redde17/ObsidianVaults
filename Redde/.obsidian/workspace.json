@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-28 BD LAB p1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-28 BD LAB p1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-28 BD LAB p1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md"
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-10-28 BD LAB p1.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "3013ebd6f13688b9",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
@@ -149,7 +150,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Heap.md",
-    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md"
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md"
   ]
 }
