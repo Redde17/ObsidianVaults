@@ -100,6 +100,16 @@
             }
           },
           {
+            "id": "091efa3c9ef2d61b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          },
+          {
             "id": "03554d3baae069c4",
             "type": "leaf",
             "state": {
@@ -112,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -232,7 +242,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "57aa2a474c2b9978",
+  "active": "091efa3c9ef2d61b",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
