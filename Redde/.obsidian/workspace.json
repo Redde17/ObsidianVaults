@@ -4,125 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1ac135c14b2da4d3",
+        "id": "0608bcbca0020262",
         "type": "tabs",
         "children": [
           {
-            "id": "f8c5a519bba1d5bc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "5c6c1fdec4defb74",
+            "id": "3013ebd6f13688b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "030257430077f24c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7e4a6d0b65da24b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f1340a52c5afd1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2350ac0e24b77d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5945e9815ff09816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57aa2a474c2b9978",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "091efa3c9ef2d61b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
-          },
-          {
-            "id": "03554d3baae069c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md"
               }
             }
           }
@@ -242,17 +139,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "091efa3c9ef2d61b",
+  "active": "3013ebd6f13688b9",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Heap.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
-    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.5/Linker e loader.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Thread.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md"
+    "conflict-files-obsidian-git.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Heap.md",
+    "Uni/Secondo anno primo semestre/Daily to revise/2022-10-11 SO p1.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md"
   ]
 }
