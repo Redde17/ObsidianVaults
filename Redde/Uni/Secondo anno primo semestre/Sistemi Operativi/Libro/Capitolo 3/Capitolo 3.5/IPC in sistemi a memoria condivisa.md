@@ -3,4 +3,8 @@ La comunicazione tra processi basata sulla condivisione della memoria richiede c
 Per illustrare il concetto di cooperazione tra processi si consideri il problema del produttore/consumatore e una sua possibile soluzione, ovveró l'implementazione di un buffer che viene riempito dal produttore e svuotato dal consumatore. 
 I due processi devono essere sincronizzati in modo tale che il consumatore non tenti di consumare un’unità non ancora prodotta.
 
-Si possono utilizzare due tipi di buffer
+Si possono utilizzare due tipi di buffer.
+Quello illimitato e quello limitato.
+Quello illimitato permette al produttore di produrre senza restrizioni.
+
+Il buffer condiviso è realizzato come un array circolare.
