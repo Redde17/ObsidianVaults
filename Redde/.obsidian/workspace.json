@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md"
               }
             }
           }
@@ -187,8 +187,8 @@
   },
   "active": "c35bdb1781a3e4f7",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Introduzione ai thread.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Introduzione ai thread.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
     "Pipe.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Esempi di sistemi IPC.md",
