@@ -56,6 +56,42 @@
             }
           },
           {
+            "id": "ca8f4237bd59dac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.2/Programmazione multicore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6a946db1ef8b9a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.2/Legge di Amdahl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18529a7ed60f48c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a uno.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a6dd3ebcdbe27566",
             "type": "leaf",
             "state": {
@@ -68,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -134,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a uno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a uno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a uno.md"
               }
             }
           }
@@ -185,17 +221,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c35bdb1781a3e4f7",
+  "active": "18529a7ed60f48c5",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modelli di supporto al multithreading.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da uno a uno.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a molti.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a uno.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.2/Legge di Amdahl.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.2/Programmazione multicore.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Introduzione ai thread.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
-    "Pipe.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Esempi di sistemi IPC.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.5/IPC in sistemi a memoria condivisa.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.4/Comunicazione tra processi.md",
-    "().md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.3/Terminazione di un processo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 2 - Strutture dei sistemi operativi/Capitolo 2.8/Struttura del sistema operativo.md"
+    "Pipe.md"
   ]
 }

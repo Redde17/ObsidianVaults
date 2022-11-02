@@ -7,4 +7,7 @@ I vantaggi della programmazione multithread si possono classificare in quattro c
 
 Riassunto:
 Il multithreading ha 4 principali vantaggi
-- Tempo di risposta. I programmi chea do
+- Tempo di risposta. I programmi che adottatano un sistema multithreading possono continuare a funzionare anche durante periodi di esecuzioni intensivi per richiesta del programma.
+- Consivisione delle risorse. I thread condividono di base risorse risalenti al processo dal quale i thread sono originati.
+- Economia. Visto che i thread condividono la stessa memoria, gestire la creazione e il cambio di contesto dei thread é molto piú conveniente e rapido.
+- Scalabilitá. Nelle architetture multiprocessore il multithreading incrementa il parallelismo.

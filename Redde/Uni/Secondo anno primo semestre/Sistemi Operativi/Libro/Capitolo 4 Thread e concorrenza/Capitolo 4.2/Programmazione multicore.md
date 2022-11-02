@@ -1,0 +1,9 @@
+Nei primi tempi della progettazione dei calcolatori, in risposta alla necessità di una maggiore potenza di calcolo, si è passati dai sistemi a singola cpu ai sistemi multi-cpu. Una simile tendenza, più recente, nel progetto dell’architettura dei sistemi consiste nel montare diversi _core_ di elaborazione su un unico chip; **ogni unità appare al sistema operativo come un processore separato. Sia che i core appartengano allo stesso chip o a più chip, noi chiameremo questi sistemi multicore o multiprocessore.** La programmazione multithread offre un meccanismo per un utilizzo più efficiente di questi multiprocessori e aiuta a sfruttare al meglio la concorrenza. 
+
+Si consideri un’applicazione con quattro thread. In un sistema con un singolo core, “esecuzione concorrente” significa solo che l’esecuzione dei thread è avvicendata nel tempo (_interleaved_) perché la cpu è in grado di eseguire un solo thread alla volta.  
+![[Pasted image 20221102165450.png]] 
+
+Su un sistema multicore, invece, “esecuzione concorrente” significa che i thread possono funzionare in parallelo, dal momento che il sistema può assegnare thread diversi a ciascun core.
+![[Pasted image 20221102165527.png]]
+
+**Si noti la distinzione tra _parallelismo_ e _concorrenza_.** Un sistema concorrente supporta più task permettendo a ciascuno di progredire nell’esecuzione. Un sistema parallelo, invece, può eseguire simultaneamente più di un task. È dunque possibile avere concorrenza senza parallelismo. Prima dell’avvento dei processori smp e delle architetture multicore, la maggior parte dei sistemi era dotata di un singolo processore. Gli scheduler della cpu erano progettati per fornire l’illusione di parallelismo, mediante una rapida commutazione tra processi nel sistema, consentendo in tal modo a ogni processo di fare progressi. Tali processi erano eseguiti in maniera concorrente, ma non in parallelo.

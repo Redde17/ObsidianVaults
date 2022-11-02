@@ -1,0 +1,8 @@
+La legge di Amdahl è una formula che permette di determinare i potenziali guadagni in termini di prestazioni ottenuti dall’aggiunta di ulteriori core di elaborazione, nel caso di applicazioni che contengono sia componenti seriali (non parallele) sia componenti parallele. Indicando con _S_ la porzione di applicazione che deve essere realizzata serialmente su un sistema con _N_ core di elaborazione, la formula è la seguente:
+![[Pasted image 20221102165706.png]]
+
+Come esempio, supponiamo di avere un’applicazione che sia al 75% parallela e al 25% seriale. Se eseguiamo l’applicazione su un sistema con due core di elaborazione, possiamo ottenere un incremento di velocità pari a 1,6. Se aggiungiamo due core (per un totale di quattro core), l’incremento di velocità è pari a 2,28. Il grafico che segue illustra la legge di Amdahl in differenti scenari.
+
+![[Pasted image 20221102165722.png]]
+
+Un fatto interessante circa la legge di Amdahl è che per _N_ che tende all’infinito, l’incremento di velocità converge a 1/_S_. Per esempio, se il 50 per cento di un’applicazione viene eseguita in maniera seriale, il massimo aumento di velocità è di 2 volte, indipendentemente dal numero di core di elaborazione che aggiungiamo. Questo è il principio fondamentale che sta dietro la legge di Amdahl: la porzione seriale di un’applicazione può avere un effetto dominante sulle prestazioni ottenibili con l’aggiunta di ulteriori core.
