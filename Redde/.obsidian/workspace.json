@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pipe.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Pipe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a molti.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Pipe.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a molti.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Pipe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a molti.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Pipe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a molti.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Pipe.md"
               }
             }
           }
@@ -223,15 +223,15 @@
   },
   "active": "18529a7ed60f48c5",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da uno a uno.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a uno.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modelli di supporto al multithreading.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.3/Modello da molti a molti.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.2/Legge di Amdahl.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.2/Programmazione multicore.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Vantaggi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Motivazioni.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 4 Thread e concorrenza/Capitolo 4.1/Introduzione ai thread.md",
-    "Pipe.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Esempi di sistemi IPC.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.3/Terminazione di un processo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.4/Comunicazione tra processi.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.3/Creazione di un processo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.3/Operazioni sui processi.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.2/Cambio di contesto.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.2/Scheduling della CPU.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.2/Code di scheduling.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.2/Scheduling dei processi.md"
   ]
 }
