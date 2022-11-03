@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Untitled.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-11-03 OOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Untitled.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-11-03 OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Untitled.md",
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-11-03 OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Untitled.md"
+                "file": "Uni/Secondo anno primo semestre/Daily to revise/2022-11-03 OOP.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "f5e44185afb8a2ee",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Untitled.md",
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-28 BD LAB p1.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Stato del processo.md",
@@ -159,7 +160,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Overhead.md",
     "conflict-files-obsidian-git.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.1/Concetto di processo.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Heap.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Definizioni/Stack.md"
   ]
 }
