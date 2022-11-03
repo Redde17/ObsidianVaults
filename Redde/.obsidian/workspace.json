@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e014eb09ab5a7271",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +149,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e014eb09ab5a7271",
+  "active": "f5e44185afb8a2ee",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Daily to revise/2022-10-28 BD LAB p1.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3/Capitolo 3.3/Terminazione di un processo.md",
