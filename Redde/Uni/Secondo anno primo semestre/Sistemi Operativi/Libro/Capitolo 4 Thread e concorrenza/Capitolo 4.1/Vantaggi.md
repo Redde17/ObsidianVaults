@@ -1,0 +1,13 @@
+I vantaggi della programmazione multithread si possono classificare in quattro categorie principali.
+- **Tempo di risposta.** Rendere multithread un'applicazione interattiva può permettere a un programma di continuare la sua esecuzione, anche se una parte di esso è bloccata o sta eseguendo un’operazione particolarmente lunga, riducendo il tempo di risposta all’utente. Questa caratteristica è particolarmente utile nella progettazione di interfacce utente.
+- **Condivisione delle risorse**. I processi possono condividere risorse soltanto attraverso tecniche come la memoria condivisa e lo scambio di messaggi. Queste tecniche devono essere esplicitamente messe in atto dal programmatore. Tuttavia, i thread condividono per default la memoria e le risorse del processo al quale appartengono. Il vantaggio della condivisione del codice e dei dati consiste nel fatto che un’applicazione può avere molti thread di attività diverse, tutti nello stesso spazio d’indirizzi.
+- **Economia**. Assegnare memoria e risorse per la creazione di nuovi processi è costoso; poiché i thread condividono le risorse del processo cui appartengono, è molto più conveniente creare thread e gestirne i cambi di contesto. È difficile misurare empiricamente la differenza nell’overhead richiesto per creare e gestire un processo invece che un thread, tuttavia la creazione dei thread richiede in generale meno tempo e meno memoria, e il cambio di contesto tra thread è più rapido.
+- **Scalabilitá**. I vantaggi della programmazione multithread sono ancora maggiori nelle architetture multiprocessore, dove i thread si possono eseguire in parallelo su distinti core di elaborazione. Invece un processo con un singolo thread può funzionare solo su un processore, indipendentemente da quanti ve ne siano a disposizione. Il multithreading su una macchina con più processori incrementa il parallelismo.
+
+
+Riassunto:
+Il multithreading ha 4 principali vantaggi
+- Tempo di risposta. I programmi che adottatano un sistema multithreading possono continuare a funzionare anche durante periodi di esecuzioni intensivi per richiesta del programma.
+- Consivisione delle risorse. I thread condividono di base risorse risalenti al processo dal quale i thread sono originati.
+- Economia. Visto che i thread condividono la stessa memoria, gestire la creazione e il cambio di contesto dei thread é molto piú conveniente e rapido.
+- Scalabilitá. Nelle architetture multiprocessore il multithreading incrementa il parallelismo.
