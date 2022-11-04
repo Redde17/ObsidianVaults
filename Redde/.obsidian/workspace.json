@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Dispatcher.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d688252f4c3f365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "504d893444034ee7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Algoritmi di scheduling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Algoritmi di scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Algoritmi di scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Algoritmi di scheduling.md"
               }
             }
           }
@@ -149,17 +173,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5c99b8a69e58769d",
+  "active": "504d893444034ee7",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Dispatcher.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduler della cpu.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Ciclicità delle fasi d’elaborazione e di IO.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.1/Blocco di controllo del processo o PCB.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Concetti fondamentiali.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Dispatcher.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md",
     "Ciclicità delle fasi d’elaborazione e di i/o.md",
     "conflict-files-obsidian-git.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 3 Processi/Capitolo 3.7/Pipe.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md"
   ]
 }

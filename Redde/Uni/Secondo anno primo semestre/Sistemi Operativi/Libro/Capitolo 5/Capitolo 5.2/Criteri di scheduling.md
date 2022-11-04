@@ -1,0 +1,17 @@
+Diversi algoritmi di scheduling della cpu hanno proprietà differenti e possono favorire una particolare classe di processi. Prima di scegliere l’algoritmo da usare in una specifica situazione occorre considerare le caratteristiche dei diversi algoritmi.
+
+Per il confronto tra gli algoritmi di scheduling della cpu sono stati suggeriti molti criteri. Le caratteristiche usate per tale confronto possono incidere in modo rilevante sulla scelta dell’algoritmo migliore. Di seguito si riportano alcuni criteri.
+-   **Utilizzo della cpu**. La cpu deve essere più attiva possibile. Teoricamente, l’utilizzo della cpu può variare dallo 0 al 100 per cento. In un sistema reale dovrebbe variare dal 40 per cento, per un sistema con poco carico, al 90 per cento, per un sistema con carico elevato. (L’utilizzo della cpu può essere ottenuto utilizzando il comando top su sistemi Linux, macos e unix).
+
+-   **Throughput**. La cpu è attiva quando si svolge del lavoro. Una misura del lavoro svolto è data dal numero dei processi completati nell’unità di tempo: tale misura è detta produttività (_throughput_). Per processi di lunga durata il suo valore può essere di un processo all’ora, mentre per brevi transazioni è possibile avere un throughput di 10 processi al secondo.
+
+-   **Tempo di completamento**. Dal punto di vista di uno specifico processo, il criterio più importante è il tempo necessario per eseguire il processo stesso. L’intervallo che intercorre tra la sottomissione del processo e il completamento dell’esecuzione è chiamato tempo di completamento (_turnaround time_), ed è la somma dei tempi passati nell’attesa dell’ingresso in memoria, nella ready queue, durante l’esecuzione nella cpu e nelle operazioni di i/o.
+
+-   **Tempo d’attesa**. L’algoritmo di scheduling della cpu non influisce sul tempo impiegato per l’esecuzione di un processo o di un’operazione di i/o; influisce solo sul tempo d’attesa nella ready queue. Il tempo d’attesa è la somma degli intervalli d’attesa passati in questa coda.
+
+-   **Tempo di risposta**. In un sistema interattivo il tempo di completamento può non essere il miglior criterio di valutazione: spesso accade che un processo emetta dati abbastanza presto, e continui a calcolare i nuovi risultati mentre quelli precedenti sono in fase di output per l’utente. Quindi, un’altra misura di confronto è data dal tempo che intercorre tra la effettuazione di una richiesta e la prima risposta prodotta. Questa misura è chiamata tempo di risposta, ed è data dal tempo necessario per iniziare la risposta, ma non dal suo tempo necessario per completare l’output.
+
+È auspicabile aumentare al massimo utilizzo e produttività della cpu, mentre il tempo di completamento, il tempo d’attesa e il tempo di risposta si devono ridurre al minimo.
+
+
+Nell’analizzare i diversi algoritmi di scheduling della cpu dobbiamo esemplificarne il funzionamento. Una descrizione approfondita richiederebbe il ricorso a molti processi, ognuno dei quali costituito da parecchie centinaia di sequenze di operazioni della cpu e di sequenze di operazioni di i/o. Per motivi di semplicità, negli esempi si considera una sola sequenza di operazioni della cpu (la cui durata è espressa in millisecondi) per ogni processo. La misura di confronto adottata è il tempo d’attesa medio. Meccanismi di valutazione più raffinati sono trattati nel Paragrafo 5.8.
