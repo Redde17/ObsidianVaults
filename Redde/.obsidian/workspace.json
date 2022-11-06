@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe79fea2f50345d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md"
               }
             }
           }
@@ -173,8 +185,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "504d893444034ee7",
+  "active": "fe79fea2f50345d1",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello con retroazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling in ordine d’arrivo.md",
@@ -183,7 +196,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling circolare.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling shortest-job-first.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Dispatcher.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Dispatcher.md"
   ]
 }
