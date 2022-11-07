@@ -29,9 +29,21 @@ Il multithreading fine (anche detto _interleaved multithreading_) passa da un t
 Di conseguenza, un processore multithreaded e multicore richiede due diversi livelli di scheduling, come mostrato nella seguente figura, che illustra un core di elaborazione dual-threaded.
 ![[Pasted image 20221107162711.png]]
 A un livello vi sono le decisioni di scheduling che devono essere prese dal sistema operativo per scegliere quale thread software eseguire su ogni thread hardware (cpu logica). 
-Il sistema operativo può scegliere qualsiasi algoritmo, compresi quelli descritti nel Paragrafo 5.3.
+Il sistema operativo può scegliere qualsiasi algoritmo.
 
-Un secondo livello di scheduling specifica in che modo ciascun core decide quale thread hardware eseguire. In questa situazione è possibile adottare diverse strategie. Un approccio consiste nell’utilizzare un semplice algoritmo round-robin per assegnare un thread hardware al core di elaborazione:
+Un secondo livello di scheduling specifica in che modo ciascun core decide quale thread hardware eseguire. 
+In questa situazione è possibile adottare diverse strategie. 
+Un approccio consiste nell’utilizzare un semplice algoritmo round-robin per assegnare un thread hardware al core di elaborazione:
+Oppure viene assegnato a ciascun thread hardware un indice dinamico di urgenza (_urgency_) compreso tra 0 e 7, dove 0 rappresenta l’urgenza più bassa e 7 la più alta. 
+Il processore identifica cinque diversi eventi in grado di attivare un cambio di thread. 
+Quando si verifica uno di questi eventi, la logica di cambio di thread confronta l’urgenza dei due thread e seleziona il thread con il valore di urgenza più alto da eseguire sul core del processore.
+
+Si noti che i due diversi livelli di scheduling mostrati nella figura precedente non sono necessariamente mutuamente esclusivi. 
+Infatti, se lo scheduler del sistema operativo (il primo livello) viene reso consapevole della condivisione delle risorse del processore, può prendere decisioni di scheduling più efficaci.
+Per esempio, supponiamo che una cpu abbia due core di elaborazione e che ogni core abbia due thread hardware. 
+Se due thread software sono in esecuzione su questo sistema, possono essere in esecuzione sullo stesso core o su core separati. 
+Se entrambi vengono assegnati allo stesso core, devono condividere le risorse del processore e quindi è probabile che procedano più lentamente rispetto al caso in cui siano assegnati a core distinti. 
+Se il sistema operativo è a conoscenza del livello di condivisione delle risorse del processore può programmare i thread software su processori logici che non condividono risorse.
 
 #### Chiarimenti personali:
 Un thread logico é definibile come un processe da eseguire, una serie di comandi.

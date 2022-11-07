@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md"
               }
             }
           }
@@ -189,9 +189,9 @@
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Approcci allo scheduling per multiprocessori.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Bilanciamento del carico.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello con retroazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling con priorità.md",

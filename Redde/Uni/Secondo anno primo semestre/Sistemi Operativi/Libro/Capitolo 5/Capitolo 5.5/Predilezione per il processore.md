@@ -1,0 +1,9 @@
+Si consideri che cosa accade alla memoria cache dopo che un processo è stato eseguito da uno specifico processore: i dati che il processore ha trattato più recentemente permangono nella cache e, di conseguenza, i successivi accessi alla memoria da parte del processo tendono a utilizzare spesso la memoria cache (chiamata warm cache). 
+
+Si consideri ora che cosa succede se un processo si sposta su un altro processore: i contenuti della memoria cache devono essere invalidati sul processore di partenza, mentre la cache del processore di arrivo deve essere nuovamente riempita. 
+A causa degli alti costi di svuotamento e riempimento della cache, molti sistemi smp tentano di impedire il passaggio di thread da un processore all’altro, mirando a mantenere un thread sempre sullo stesso processore e a sfruttare i vantaggi della warm cache. 
+Si parla di predilezione per il processore (_processor affinity_), intendendo con ciò che un processo ha una predilezione per il processore su cui è in esecuzione.
+
+Le due strategie per l’organizzazione della coda dei thread disponibili per lo scheduling descritte nel [Paragrafo 5.5.1](obsidian://open?vault=Redde&file=Uni%2FSecondo%20anno%20primo%20semestre%2FSistemi%20Operativi%2FLibro%2FCapitolo%205%2FCapitolo%205.5%2FApprocci%20allo%20scheduling%20per%20multiprocessori) hanno implicazioni sulla predilezione per il processore.
+
+Infatti, se adottiamo l’approccio di una ready queue comune, un thread può essere selezionato per l’esecuzione da qualsiasi processore e ogni volta che un thread è schedulato su un nuovo processore la cache del processore deve essere ripopolata. Con le ready queue private, distinte per ogni processore, un thread viene sempre schedulato sullo stesso processore e può quindi trarre vantaggio dal contenuto di una warm cache. In sostanza, le ready queue private forniscono la predilezione del processore gratuitamente!
