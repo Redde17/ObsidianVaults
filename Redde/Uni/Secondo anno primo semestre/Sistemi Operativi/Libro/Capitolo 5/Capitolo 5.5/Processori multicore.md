@@ -9,4 +9,12 @@ Questa situazione, nota come stallo della memoria, può verificarsi per varie ra
 La seguente figura mostra uno stallo della memoria. In questo scenario, il processore può trascorrere fino al 50 per cento del suo tempo attendendo che i dati siano disponibili in memoria.
 ![[Pasted image 20221107160519.png]]
 
-Per rimediare a questa situazione, molti dei progetti hardware recenti implementano delle unità di calcolo multithread in cui due o più thread hardware sono assegnati a un singolo core. In questo modo, se un thread è in situazione di stallo in attesa della memoria, il core può passare a eseguire un altro thread. La Figura 5.13 mostra un processore a due thread nel quale l’esecuzione dei thread 0 e 1 sono avvicendate nel tempo. Dal punto di vista del sistema operativo, ogni thread hardware mantiene il suo stato architetturale, come il puntatore alle istruzioni e il set di registri, e appare quindi come una cpu logica che è disponibile per eseguire un thread software. Questa tecnica, nota come chip multithreading (cmt), è illustrata nella Figura 5.14, dove è mostrato un processore contenente quattro core di elaborazione, ognuno dei quali contiene due thread hardware: dal punto di vista del sistema operativo sono presenti otto cpu logiche.
+Per rimediare a questa situazione, molti dei progetti hardware recenti implementano delle unità di calcolo multithread in cui due o più thread hardware sono assegnati a un singolo core. 
+In questo modo, se un thread è in situazione di stallo in attesa della memoria, il core può passare a eseguire un altro thread. 
+La seguente figura mostra un processore a due thread nel quale l’esecuzione dei thread 0 e 1 sono avvicendate nel tempo.
+![[Pasted image 20221107161308.png]]
+Dal punto di vista del sistema operativo, ogni thread hardware mantiene il suo stato architetturale, come il puntatore alle istruzioni e il set di registri, e appare quindi come una cpu logica che è disponibile per eseguire un thread software. 
+Questa tecnica, nota come chip multithreading (cmt), è illustrata nella seguente figura, dove è mostrato un processore contenente quattro core di elaborazione, ognuno dei quali contiene due thread hardware: dal punto di vista del sistema operativo sono presenti otto cpu logiche.
+![[Pasted image 20221107161341.png]]
+
+I processori Intel utilizzano il termine hyper-threading (noto anche come _multithreading simultaneo_ o smt) per descrivere l’assegnazione di più thread hardware a un singolo core di elaborazione. I processori Intel contemporanei, come l’i7, supportano due thread per core, mentre il processore Oracle Sparc M7 supporta otto thread per core, con otto core per processore, fornendo così al sistema operativo 64 cpu logiche.
