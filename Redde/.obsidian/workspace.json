@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "81ddf6ff1cc90974",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.1/Introduzione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Esempi di sistemi operativi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.1/Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Esempi di sistemi operativi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.1/Introduzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Esempi di sistemi operativi.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.1/Introduzione.md"
               }
             }
           }
@@ -197,17 +209,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0d0dd903a62360ee",
+  "active": "81ddf6ff1cc90974",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Un esempio scheduling di Linux.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Untitled.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Esempi di sistemi operativi.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Un esempio scheduling di Linux.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Approcci allo scheduling per multiprocessori.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Bilanciamento del carico.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello con retroazione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling con priorità.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello.md"
   ]
 }
