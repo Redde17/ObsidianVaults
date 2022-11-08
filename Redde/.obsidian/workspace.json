@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6da122c3671fb7f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.2/Problema della sezione critica.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -221,8 +233,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "749db19cec1acc5c",
+  "active": "6da122c3671fb7f1",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.3/Soluzione di Peterson.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.2/Problema della sezione critica.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.1/Introduzione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Untitled.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.7/Esempi di sistemi operativi.md",
@@ -230,8 +244,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Scheduling per sistemi multiprocessore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Predilezione per il processore.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Approcci allo scheduling per multiprocessori.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Bilanciamento del carico.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Processori multicore.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.3/Scheduling a code multilivello con retroazione.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.5/Bilanciamento del carico.md"
   ]
 }
