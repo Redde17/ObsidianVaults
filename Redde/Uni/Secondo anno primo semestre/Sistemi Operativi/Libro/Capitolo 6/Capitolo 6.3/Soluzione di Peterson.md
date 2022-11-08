@@ -37,3 +37,9 @@ Come accennato all’inizio di questo paragrafo, non è possibile garantire il f
 
 Si considerino, per esempio, i seguenti dati condivisi tra due thread:
 ![[Pasted image 20221108204912.png]]
+Il comportamento previsto è, ovviamente, che Thread 1 restituisca il valore 100 per la variabile x. Tuttavia, poiché non ci sono dipendenze tra le variabili flag e x, è possibile che un processore riordini le istruzioni di Thread 2 in modo che il flag sia impostato a true prima dell’assegnamento x = 100. In questa situazione Thread 1 potrebbe restituire il valore 0 per la variabile x. Meno ovvio è che il processore possa anche riordinare le istruzioni eseguite da Thread 1 e caricare la variabile x prima del valore di flag. Se ciò accadesse, Thread 1 restituirebbe il valore 0 anche se le istruzioni eseguite da Thread 2 non fossero state riordinate.
+
+
+In che modo questo influenza la soluzione di Peterson? Si consideri ciò che accadrebbe se gli assegnamenti che compaiono nella sezione d’ingresso della soluzione di Peterson della Figura 6.3 venissero riordinati. In questo caso sarebbe possibile avere entrambi i thread attivi nelle loro sezioni critiche contemporaneamente, come mostrato nella seguente figura.
+![[Pasted image 20221108204936.png]]
+Come si vedrà nei seguenti paragrafi, l’unico modo per preservare la mutua esclusione è utilizzare strumenti di sincronizzazione adeguati. La nostra analisi di questi strumenti inizierà dal supporto hardware e continuerà con le api astratte di alto livello che sono disponibili per gli sviluppatori di kernel e di applicazioni.
