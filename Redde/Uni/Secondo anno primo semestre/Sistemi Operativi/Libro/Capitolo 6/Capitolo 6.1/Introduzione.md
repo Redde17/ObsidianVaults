@@ -61,9 +61,18 @@ dove _registro_2 è un registro locale della cpu.
 Anche se _registro_1 e _registro_2 possono essere lo stesso registro fisico, per esempio un accumulatore, occorre ricordare che il contenuto di questo registro viene salvato e recuperato dal gestore dei segnali d’interruzione.
 
 L’esecuzione concorrente delle istruzioni contatore++ e contatore-- equivale a un’esecuzione sequenziale delle istruzioni del linguaggio macchina introdotte precedentemente, intercalate (_interleaved_) in una qualunque sequenza che però conservi l’ordine interno di ogni singola istruzione di alto livello. Una di queste sequenze è
--   _T0: produttore_ esegue _registro1 := contatore {_registro1 = 5}
+-   _T0: produttore_ esegue _registro1 := contatore {registro1 = 5}
 -   _T1: produttore_ esegue _registro1_:= registro_1 + 1 {_registro1 = 6}
 -   _T2: consumatore_ esegue _registro2 := contatore {registro2 = 5}
 -   _T3: consumatore_  esegue _registro2 := _registro_2 – 1 {registro2 = 4}
 -   _T4: produttore_ esegue contatore := _registro_1 {contatore_ = 6}
 -   _T5: consumatore_ esegue contatore := _registro_2 {contatore = 4}
+e conduce al risultato errato in cui contatore == 4; si registra la presenza di 4 elementi nel buffer, mentre in realtà gli elementi sono 5. Se si invertisse l’ordine delle istruzioni in _T_4 e _T_5 si giungerebbe allo stato errato in cui contatore == 6.
+
+Si è arrivati a questo stato non corretto perché si è permesso a entrambi i processi di manipolare concorrentemente la variabile contatore. Per evitare le situazioni di questo tipo, in cui più processi accedono e modificano gli stessi dati in modo concorrente e i risultati dipendono dall’ordine degli accessi (le cosiddette race condition) occorre assicurare che un solo processo alla volta possa modificare la variabile contatore. Questa garanzia richiede una forma di sincronizzazione dei processi.
+
+Tali situazioni si verificano spesso nei sistemi operativi, nei quali diversi componenti del sistema compiono operazioni su risorse condivise. 
+Inoltre, come evidenziato nei precedenti capitoli, la crescente importanza dei sistemi multicore ha dato maggior enfasi allo sviluppo di applicazioni multithread in cui diversi thread, che probabilmente possono condividere dei dati, sono in esecuzione in parallelo su core distinte. 
+Ovviamente tali operazioni non devono interferire reciprocamente in modi indesiderati. 
+
+Data l’importanza della questione, la maggior parte di questo capitolo è dedicata ai problemi della sincronizzazione e coordinamento dei processi.
