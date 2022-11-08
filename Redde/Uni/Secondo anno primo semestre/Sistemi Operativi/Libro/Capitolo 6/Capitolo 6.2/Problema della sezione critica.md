@@ -62,4 +62,12 @@ Attesa limitata
 
 Mutua esclusione: Se un processo é in esecuzione nella sua zona critica nessun altro processo puó essere in esecuzione nella sua zona critica.
 
-Progresso: Se 
+Progresso: Se nessun processo é in esecuzione nella sua zona critica, solo i processi che devono entrare in zone critiche possono decidere quali tra loro andrá in esecuzione per primo, questa decisione non puó essere rimandata
+
+Attesa limitata: (evitare di creare starvation e deadlock) Se un processo richiede di entrare nella zona critica, si possono eseguire un numero limitato di zone critiche prima che la richiesta del primo processo venga approvata.
+
+La gestione delle sezioni critiche nei sistemi operativi prevede l'impiego di due strategie principali:
+1.  Kernel con diritto di prelazione (pre-emptive)
+2.  Kernel senza diritto di prelazione (non pre-emptive)
+
+Un kernel con diritto di prelazione consente che un processo funzionante in modalità di sistema, sia sottoposto a prelazione, rinviandone in tal modo l'esecuzione.
