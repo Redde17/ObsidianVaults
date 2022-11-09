@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Implementazione dei semafori.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Istruzioni hardware.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Implementazione dei semafori.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Istruzioni hardware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Implementazione dei semafori.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Istruzioni hardware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Implementazione dei semafori.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Istruzioni hardware.md"
               }
             }
           }
@@ -271,8 +271,8 @@
   },
   "active": "7756353afc9a4332",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Uso dei semafori.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Implementazione dei semafori.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Uso dei semafori.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Semafori.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.5/Lock mutex.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Istruzioni hardware.md",
