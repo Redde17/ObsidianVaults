@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.2/Criteri di scheduling.md"
               }
             }
           }
@@ -271,15 +271,15 @@
   },
   "active": "7756353afc9a4332",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Dispatcher.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduling con e senza prelazione.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Scheduler della cpu.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 5/Capitolo 5.1/Ciclicità delle fasi d’elaborazione e di IO.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Domande libro.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Untitled.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Istruzioni hardware.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Implementazione dei semafori.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Uso dei semafori.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Semafori.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.5/Lock mutex.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.4/Supporto hardware per la sincronizzazione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.3/Soluzione di Peterson.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.6/Uso dei semafori.md"
   ]
 }

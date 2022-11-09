@@ -17,7 +17,6 @@
 15. Descrivere i concetti di “multiprogrammazione” e “multitasking” dal punto di vista del SO, indicando quali moduli del SO coinvolge e quali vantaggi/svantaggi introduce
 16. Illustrare brevemente le tecniche per l’I/O basate su interrupt e DMA spiegando in quali casi d’uso (quali dispositivi di I/O) ognuna risulti più adatta ed i vantaggi attesi da ciascuna tecnica
 
-
 ### Gestione dei processi
 1. Elencare le informazioni solitamente contenute nel PCB
 2. Definire il concetto di processo. Disegnare il diagramma degli stati in cui si può trovare un pocesso ed elencare le principali informazioni contenute nel PCB
