@@ -21,7 +21,13 @@ A parte in questo caso, la compare_and_swap() restituisce sempre il valore ori
 L’importante caratteristica di questa istruzione è che viene eseguita atomicamente. 
 Pertanto, se due istruzioni cas vengono eseguite simultaneamente (ciascuna su un core diverso), verranno eseguite sequenzialmente in un ordine arbitrario.
 
-La mutua esclusione può essere realizzata usando cas come segue. Viene dichiarata e inizializzata a 0 una variabile globale (lock). Il primo processo che richiama compare_and_swap() imposterà lock a 1. Entrerà poi nella sua sezione critica, poiché il valore originale di lock era pari al valore atteso 0. Le chiamate successive di compare_and_swap() non avranno successo, perché ora lock non è uguale al valore atteso 0. Quando un processo esce dalla sezione critica, imposta di nuovo lock al valore 0, per permettere a un altro processo di entrare nella propria sezione critica. La struttura del processo _P__i_ è illustrata nella seguente figura.
+La mutua esclusione può essere realizzata usando cas come segue. Viene dichiarata e inizializzata a 0 una variabile globale (lock). Il primo processo che richiama compare_and_swap() imposterà lock a 1. 
+Entrerà poi nella sua sezione critica, poiché il valore originale di lock era pari al valore atteso 0. 
+Le chiamate successive di compare_and_swap() non avranno successo, perché ora lock non è uguale al valore atteso 0. 
+Quando un processo esce dalla sezione critica, imposta di nuovo lock al valore 0, per permettere a un altro processo di entrare nella propria sezione critica. La struttura del processo _Pi_ è illustrata nella seguente figura.
 ![[Pasted image 20221109154054.png]]
 
-Questo algoritmo soddisfa il requisito della mutua esclusione, ma non quello dell’attesa limitata. La Figura 6.9 mostra un altro algoritmo che sfrutta l’istruzione compare_and_swap()che soddisfare tutti e tre i requisiti desiderati. Le strutture dati condivise sono
+Questo algoritmo soddisfa il requisito della mutua esclusione, ma non quello dell’attesa limitata. 
+
+La seguente figura mostra un altro algoritmo che sfrutta l’istruzione compare_and_swap() che soddisfare tutti e tre i requisiti desiderati. Le strutture dati condivise sono
+![[Pasted image 20221109154442.png]]
