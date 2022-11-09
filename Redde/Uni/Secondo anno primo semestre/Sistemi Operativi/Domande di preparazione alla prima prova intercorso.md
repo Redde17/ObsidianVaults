@@ -36,3 +36,7 @@
 2. Descrivere il concetto di Thread e l’architettura sottesa. Che vantaggi offre?
 3. Come possono cooperare due o più processi (secondo la definizione data). Quali sono le differenze tra Processi e Threads? Mostrare mediante esempi in pseudocodice quali sono le possibili opzioni e quali sono i modelli architetturali dell’hardware sotteso.
 4. Indicare le principali differenze tra processi e thread fornendo un esempio di utilizzo (snippet in pseudocodice) per programmi “concorrenti” in grado di motivare vantaggi e svantaggi di ognuno
+
+### Scheduling
+1. Descrivere brevemente l’algoritmo di scheduling circolare RR, specificando effetti positivi e negativi introdotti dalla prelazione in funzione del tipo di utilizzo del sistema informativo
+2. Descrivere le differenze tra gli obiettivi dello scheduling a lungo termine (gestione delle code batch) e lo scheduling a breve termine della CPU mostrando le principali interazioni tra i due moduli
