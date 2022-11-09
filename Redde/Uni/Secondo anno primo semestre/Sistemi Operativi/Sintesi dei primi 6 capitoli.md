@@ -1,0 +1,36 @@
+## Capitolo 1
+
+-------------
+## Capitolo 2
+![[Pasted image 20221003204241.png]]
+I servizi di sistema, detti anche utilità di sistema, offrono un ambiente più conveniente per lo sviluppo e l’esecuzione dei programmi;
+
+- **Gestione dei file**. Questi programmi creano, cancellano, copiano, rinominano, stampano, elencano e in genere compiono operazioni sui file e le directory.
+
+- **Informazioni di stato**. Alcuni programmi richiedono semplicemente al sistema di indicare data, ora, quantità di memoria disponibile o spazio nei dischi, numero degli utenti e simili informazioni di stato. Altri, più complessi, forniscono informazioni dettagliate su prestazioni, accessi al sistema e debug. In genere mostrano le informazioni su terminale, o tramite altri dispositivi per l’uscita dei dati o, ancora, all’interno di una finestra della gui. Alcuni sistemi comprendono anche un registro (_registry_), al fine di archiviare e poter poi consultare informazioni sulla configurazione del sistema.
+
+- **Modifica dei file**. Diversi editor sono disponibili per creare e modificare il contenuto di file memorizzati su dischi o altri dispositivi, oltre a comandi speciali per l’individuazione di contenuti di file o per particolari trasformazioni del testo.
+
+- **Ambienti di supporto alla programmazione.** Compilatori, assemblatori, debugger e interpreti dei comuni linguaggi di programmazione, come C, C++, Java e Python, sono spesso forniti insieme con il sistema operativo oppure disponibili per il download.
+
+- **Caricamento ed esecuzione dei programmi.** Una volta assemblato o compilato, per essere eseguito, un programma deve essere caricato in memoria. Il sistema può mettere a disposizione caricatori assoluti, caricatori rilocabili, editor dei collegamenti (_linkage editor_) e caricatori di sezioni sovrapponibili di programmi (_overlay loader_). Sono necessari anche i sistemi d’ausilio all’individuazione e correzione degli errori (_debugger_) per i linguaggi d’alto livello o per il linguaggio macchina.
+
+- **Comunicazioni.** Questi programmi offrono i meccanismi con cui si possono creare collegamenti virtuali tra processi, utenti e calcolatori diversi. Permettono agli utenti d’inviare messaggi agli schermi d’altri utenti, di consultare il Web, d’inviare messaggi di posta elettronica, di effettuare il login su calcolatori remoti, di trasferire file da un calcolatore a un altro.
+
+- **Servizi in background**. Tutti i sistemi general-purpose hanno metodi per lanciare alcuni programmi di sistema al momento dell’avvio. Alcuni di questi processi terminano dopo aver completato i loro compiti, mentre altri restano in esecuzione fino a quando il sistema viene arrestato. I processi di sistema costantemente in esecuzione sono noti come servizi, sottosistemi oppure demoni. Un esempio è il demone di rete discusso nel Paragrafo 2.3.3.5. In tale esempio un sistema aveva bisogno di un servizio per rilevare le connessioni di rete e quindi assegnare le richieste ai processi corretti. Altri esempi includono le utilità di scheduling dei processi, che avviano i processi secondo una pianificazione specifica, i servizi di monitoraggio di errori di sistema e i server di stampa. Un sistema tipico ha decine di demoni. I sistemi operativi che eseguono attività importanti in contesto utente invece che in kernel possono utilizzare appositi demoni per eseguire queste attività.
+
+### Struttura del sistema operativo:
+- Struttura monolitica
+- Struttura a strati
+- Struttura a microkernel
+
+-------------------------
+
+## Capitolo 3
+----------------------
+## Capitolo 4
+--------------------------
+## Capitolo 5
+------------------------------------
+## Capitolo 6
+-------------------------
