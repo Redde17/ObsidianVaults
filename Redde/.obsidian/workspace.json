@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.3 Modelli dei dati.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.4 Linguaggi e utenti delle basi di dati.md",
                 "mode": "source",
                 "source": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.3 Modelli dei dati.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.4 Linguaggi e utenti delle basi di dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.3 Modelli dei dati.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.4 Linguaggi e utenti delle basi di dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.3 Modelli dei dati.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.4 Linguaggi e utenti delle basi di dati.md"
               }
             }
           }
@@ -295,8 +295,8 @@
   },
   "active": "d91480db970bd0f0",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/Introduzione Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.3 Modelli dei dati.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/Introduzione Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/Introduzione/1.2 Basi di dati e DBMS.md",
     "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
     "Uni/Secondo anno primo semestre/Basi Dati/Sistemi aziendali.md",
