@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md"
               }
             }
           }
@@ -151,15 +151,15 @@
   },
   "active": "a62b94fc0aefd840",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.2 La raccolta e l’analisi dei requisiti.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.5 Vantaggi e svantaggi dei DBMS.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Associazione degli indirizzi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Spazi di indirizzi logici e fisici.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Caricamento dinamico.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Hardware di base.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Memoria centrale.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.11 Strategie di progetto.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.10 Qualità dei modelli concettuali.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.9 Documentazione di schemi E-R.md"
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.11 Strategie di progetto.md"
   ]
 }
