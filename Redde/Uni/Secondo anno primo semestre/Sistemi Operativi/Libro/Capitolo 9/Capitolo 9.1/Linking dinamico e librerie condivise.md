@@ -1,0 +1,17 @@
+Le librerie collegate dinamicamente (dll) sono librerie di sistema che vengono collegate ai programmi utente quando questi vengono eseguiti.
+![[Pasted image 20221128162749.png]]
+Alcuni sistemi operativi consentono solo il collegamento statico (_static linking_), in cui le librerie di sistema sono trattate come qualsiasi altro modulo oggetto e combinate dal loader nell’immagine binaria del programma. 
+
+Il concetto di linking dinamico, invece, è analogo a quello di caricamento dinamico. Invece di differire il caricamento di una procedura fino al momento dell’esecuzione, si differisce il collegamento. 
+Questa modalità si usa soprattutto con le librerie di sistema, per esempio la libreria standard del linguaggio C. Senza questo strumento tutti i programmi di un sistema dovrebbero disporre, all’interno dell’eseguibile, di una copia della libreria di linguaggio (o almeno delle procedure cui il programma fa riferimento). Ciò porta a un aumento della dimensione del file eseguibile e a un possibile spreco di spazio in memoria centrale. 
+Un secondo vantaggio delle dll è che possono essere condivise tra più processi, in modo che solo un’istanza della dll risieda nella memoria centrale. 
+Per questo motivo, le dll sono anche conosciute come librerie condivise e sono ampiamente utilizzate nei sistemi Windows e Linux.
+
+Quando un programma fa riferimento a una routine presente in una libreria dinamica, il loader individua la dll e, se necessario, la carica in memoria. Gli indirizzi sono poi modificati in modo che facciano riferimento alle funzioni nella libreria dinamica secondo la posizione della dll in memoria.
+
+Le librerie collegate dinamicamente possono essere estese mediante aggiornamenti (per esempio, per correggere bug) o anche sostituite da una nuova versione.
+In questo caso, tutti i programmi che fanno riferimento alla libreria utilizzeranno automaticamente la nuova versione. Senza linking dinamico tutti i programmi di questo tipo avrebbero bisogno di essere nuovamente linkati per accedere alla nuova libreria. Affinché i programmi non eseguano accidentalmente nuove versioni di librerie incompatibili, le informazioni sulla versione sono incluse sia nel programma sia nella libreria.
+È possibile caricare in memoria più di una versione della stessa libreria e ogni programma si serve delle informazioni sulla versione per decidere quale copia della libreria utilizzare. 
+Se le modifiche sono di piccola entità, il numero di versione resta invariato; se l’entità delle modifiche diviene rilevante, si aumenta anche il numero di versione. Perciò, solo i programmi compilati con la nuova versione della libreria subiscono gli effetti delle modifiche incompatibili incorporate nella libreria stessa. I programmi collegati prima dell’installazione della nuova libreria continuano ad avvalersi della vecchia libreria.
+
+A differenza del caricamento dinamico, il linking dinamico e le librerie condivise richiedono generalmente l’assistenza del sistema operativo. Se i processi presenti in memoria sono protetti l’uno dall’altro, il sistema operativo è l’unica entità che può controllare se la procedura richiesta da un processo è nello spazio di memoria di un altro processo, o che può consentire l’accesso di più processi agli stessi indirizzi di memoria.

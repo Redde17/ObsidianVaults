@@ -20,3 +20,8 @@ Il programma crea un puntatore alla locazione 346, lo memorizza, lo modifica, lo
 Solo quando assume il ruolo di un indirizzo di memoria (magari in una load o una store indiretta), si riloca il numero sulla base del contenuto del registro di rilocazione. 
 Il programma utente tratta indirizzi logici, l’architettura del sistema converte gli indirizzi logici in indirizzi fisici. 
 Questa forma di collegamento nella fase d’esecuzione è stata trattata nel Paragrafo 9.1.2. La locazione finale di un riferimento a un indirizzo di memoria non è determinata finché non si compie effettivamente il riferimento.
+
+In questo caso esistono due diversi tipi di indirizzi: gli indirizzi logici (nell’intervallo da 0 a _max_) e gli indirizzi fisici (nell’intervallo da _r_ + 0 a _r_ + _max_ per un valore di base _r_). 
+Il programma utente genera solo indirizzi logici e pensa che il processo sia eseguito nelle posizioni da 0 a _max_. 
+Tuttavia questi indirizzi logici devono essere mappati in indirizzi fisici prima d’essere usati. 
+Il concetto di _spazio d’indirizzi logici_ mappato su uno _spazio d’indirizzi fisici_ separato è fondamentale per una corretta gestione della memoria. 
