@@ -22,4 +22,16 @@ Innanzitutto, bisogna assicurarsi che ciascun processo abbia uno spazio di memor
 Il registro base contiene il più piccolo indirizzo legale della memoria fisica; il registro limite determina la dimensione dell’intervallo ammesso. 
 Per esempio, se i registri base e limite contengono rispettivamente i valori 300040 e 120900, al programma si consente l’accesso agli indirizzi compresi tra 300040 e 420939, estremi inclusi.
 
-Per mettere in atto il meccanismo di protezione, la cpu confronta ciascun indirizzo generato in modalità utente con i valori contenuti nei due registri. Qualsiasi tentativo da parte di un programma eseguito in modalità utente di accedere alle aree di memoria riservate al sistema operativo o a una qualsiasi area di memoria riservata ad altri utenti comporta l’invio di una eccezione (_trap_) che restituisce il controllo al sistema operativo che, a sua volta, interpreta l’evento come un errore fatale
+Per mettere in atto il meccanismo di protezione, la cpu confronta ciascun indirizzo generato in modalità utente con i valori contenuti nei due registri. 
+Qualsiasi tentativo da parte di un programma eseguito in modalità utente di accedere alle aree di memoria riservate al sistema operativo o a una qualsiasi area di memoria riservata ad altri utenti comporta l’invio di una **eccezione** (**_trap_**) che restituisce il controllo al sistema operativo che, a sua volta, interpreta l’evento come un **errore fatale**.
+
+![[Pasted image 20221128162323.png]]
+
+Questo schema impedisce a qualsiasi programma utente di alterare (accidentalmente o intenzionalmente) il codice o le strutture dati del sistema operativo o degli altri utenti.
+
+Solo il sistema operativo può caricare i registri base e limite, grazie a una speciale istruzione privilegiata. 
+Dal momento che le istruzioni privilegiate possono essere eseguite unicamente in modalità kernel, e poiché solo il sistema operativo può essere eseguito in tale modalità, tale schema gli consente di modificare il valore di questi registri, ma impedisce tale operazione ai programmi utenti.
+
+Grazie all’esecuzione in modalità kernel, il sistema operativo ha la possibilità di accedere indiscriminatamente sia alla memoria a esso riservata sia a quella riservata agli utenti. 
+Questo privilegio consente al sistema di caricare i programmi utenti nelle aree di memoria a loro riservate; di generare copie del contenuto di queste regioni di memoria (_dump_) a scopi diagnostici, qualora si verifichino errori; di modificare i parametri delle chiamate di sistema; di eseguire i/o da e verso la memoria utente e di fornire molti altri servizi. 
+Consideriamo, per esempio, che un sistema operativo per un sistema multiprocessing deve effettuare cambi di contesto, memorizzando lo stato di un processo dai registri nella memoria centrale prima di caricare il contesto del processo successivo dalla memoria centrale nei registri.
