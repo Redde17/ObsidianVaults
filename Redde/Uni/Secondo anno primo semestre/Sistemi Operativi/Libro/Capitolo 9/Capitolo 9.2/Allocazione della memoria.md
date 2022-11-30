@@ -1,0 +1,13 @@
+Uno dei metodi più semplici per l’allocazione della memoria consiste nel suddividere la stessa in partizioni di dimensione variabile, dove ciascuna partizione può contenere esattamente un processo. 
+In questo schema a partizione variabile il sistema operativo conserva una tabella in cui sono indicate le partizioni di memoria disponibili e quelle occupate. Inizialmente tutta la memoria è a disposizione dei processi utenti; si tratta di un grande blocco di memoria disponibile, un buco (_hole_). 
+Nel lungo periodo, come si vede nel seguito, la memoria contiene una serie di buchi di diverse dimensioni.
+
+La seguente figura illustra questo schema. Inizialmente, la memoria è completamente utilizzata e contiene i processi 5, 8 e 2. Dopo l’uscita del processo 8 si forma un unico buco. Successivamente, entra in memoria il processo 9, per il quale viene allocata memoria. Quindi il processo 5 viene rimosso, producendo due buchi non contigui.
+![[Pasted image 20221130162749.png]]
+Quando i processi entrano nel sistema, il sistema operativo prende in considerazione i loro requisiti di memoria e la quantità di spazio di memoria disponibile e determina a quali processi allocare memoria. 
+Quando gli viene assegnato dello spazio, un processo viene caricato in memoria e può quindi competere per il controllo della cpu. Quando termina, rilascia la memoria che gli era stata assegnata e il sistema operativo può impiegarla per un altro processo.
+
+Che cosa succede quando non c’è sufficiente memoria per soddisfare le esigenze di un processo in arrivo? Un’opzione semplice è rifiutare il processo e fornire un messaggio di errore appropriato. 
+In alternativa, possiamo inserire il processo in una coda di attesa. Quando, in seguito, la memoria viene rilasciata, il sistema operativo controlla la coda di attesa per determinare se può soddisfare le richieste di memoria di un processo in attesa.
+
+In generale è sempre presente un insieme di buchi di diverse dimensioni sparsi per la memoria. Quando si presenta un processo che necessita di memoria, il sistema cerca nel gruppo un buco di dimensioni sufficienti per contenerlo. Se è troppo grande, il buco viene diviso in due parti: si assegna una parte al processo in arrivo e si riporta l’altra nell’insieme dei buchi. Quando termina, un processo rilascia il blocco di memoria, che si reinserisce nell’insieme dei buchi; se si trova accanto ad altri buchi, si uniscono tutti i buchi adiacenti per formarne uno più grande.
