@@ -29,3 +29,12 @@ L’indirizzo logico ha quindi la forma seguente:
 ![[Pasted image 20221130165817.png]]
 dove _p_ è un indice della tabella delle pagine e _d_ è l’offset all’interno della pagina indicata da _p_.
 
+
+Come esempio concreto, anche se minimo, si consideri la memoria illustrata nella seguente figura;
+![[Pasted image 20221130170158.png]]
+qui, nell’indirizzo logico, $n = 2$ e $m = 4$. 
+Utilizzando pagine di 4 byte e una memoria fisica di 32 byte (8 pagine), vediamo come si fa corrispondere la memoria vista dal programmatore alla memoria fisica. 
+L’indirizzo logico 0 è la pagina 0 con offset 0. 
+Secondo la tabella delle pagine, la pagina 0 si trova nel frame 5. 
+Quindi all’indirizzo logico 0 corrisponde l’indirizzo fisico $20 [= (5 × 4) + 0]$. 
+All’indirizzo logico 3 (pagina 0, offset 3) corrisponde l’indirizzo fisico 23 [= (5 × 4) + 3]. Per quel che riguarda l’indirizzo logico 4 (pagina 1, offset 0), secondo la tabella delle pagine, alla pagina 1 corrisponde il frame 6, quindi, all’indirizzo logico 4 corrisponde l’indirizzo fisico 24 [= (6 × 4) + 0]. All’indirizzo logico 13 corrisponde l’indirizzo fisico 9.
