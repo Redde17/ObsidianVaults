@@ -4,45 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "1ac135c14b2da4d3",
+        "id": "9140061ea20a9920",
         "type": "tabs",
         "children": [
-          {
-            "id": "4283dc753bb7d262",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a62b94fc0aefd840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Memoria centrale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04baa8044dfc7b5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Frammentazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "bad8a3786c2c8eb8",
             "type": "leaf",
@@ -55,8 +19,25 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "1b27ef2439228113",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd94e2057b117fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Riassunto paginazione metodo di base.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Metodo di base.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Riassunto paginazione metodo di base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Metodo di base.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Riassunto paginazione metodo di base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Metodo di base.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Riassunto paginazione metodo di base.md"
               }
             }
           }
@@ -173,17 +154,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bad8a3786c2c8eb8",
+  "active": "fd94e2057b117fb2",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Paginazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Metodo di base.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Riassunto paginazione metodo di base.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Paginazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Supporto hardware alla paginazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Protezione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Pagine condivise.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Frammentazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Allocazione della memoria.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Protezione della memoria.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Allocazione contigua della memoria.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Allocazione contigua della memoria.md"
   ]
 }
