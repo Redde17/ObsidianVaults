@@ -30,4 +30,21 @@ non so perché non riesco a capirlo.
 
 Con la paginazione viene eliminata la frammentazione esterna ma rimane ancora quella interna poiché un processo potrebbe richiedere una quantitá di memoria che é minore di quella offerte dalle pagine impiegate.
 Es. un processo che occupa 72.766 byte in un sistema con pagine da 2048 byte occupera 35 pagine piú 1086 byte, quindi si assegnano 36 pagine e nell'ultima pagina rimangono vuoti 962 byte.
-Il caso peggiore che si puó avere é una pagina con
+Il caso peggiore che si puó avere é una pagina con un singolo byte occupato.
+
+La dimensione delle pagina va evaluata a seconda della macchina poiché una dimensione troppo piccola diminuiribbe la presenza di frammentazione interna ma aumenterebbe l'overhead, quindi pagine di dimensioni maggiori aumenterebbero le prestazioni.
+
+La paginazione consente di utilizzare una memoria fisica decisamente piú grande di quella che potrebbe essere indirizzata dalla lunghezza del puntutatore agli indirizzi della cpu.
+Questo é dato dal fatto che una voce nella tabella delle pagine é lunga 4 byte, nonostante questo valore possa variare, una singola voce da 32 bit puó puntare a uno dei $2^{32}$ frame di pagina fisici.
+Se la dimensione di un frame é di 4 kb ($2^{12}$), un sistema con voci della tabella delle pagine di 4 byte può indirizzare $2^{44}$ byte (o 16 tb) di memoria fisica.
+
+Quando si deve eseguire un nuovo processo il sistema esamina la sua dimensione espressa in pagine. Poiché ogni pagina necessitá di un frame, la quantitá di pagine che un processo necessitá deve essere disponibile in frame in memoria.
+Il caricamento delle pagine dei frame avviene prima svolgendo l'effettivo caricamento della pagina nel frame e poi si inserisce il numero del frame nella tabella delle pagine relative al processo. Si svolge questa azione per tutte le pagine da caricare.
+![[Pasted image 20221205183632.png]]
+
+Utilizzando la paginazione il programmatore vede la memoria di un processo come un blocco di memoria contigua quando in veritá é sparsa per la memoria insieme ad altri programmi.
+Si noti che un processo utente non puó accedere alla memoria di altri processi.
+
+Poiché il sistema operativo gestisce la memoria fisica, deve essere informato dei dettagli della allocazione: quali frame sono assegnati, quali sono disponibili, il loro numero totale, e così via. In genere queste informazioni sono contenute in una struttura dati chiamata tabella dei frame, contenente un elemento per ogni frame, indicante se sia libero oppure assegnato e, se è assegnato, a quale pagina di quale processo o di quali processi.
+
+Inoltre, il sistema operativo deve sapere che i processi utenti operano nello spazio utente, e tutti gli indirizzi logici si devono far corrispondere a indirizzi fisici. Se un utente usa una chiamata di sistema (per esempio per eseguire un’operazione di i/o) e fornisce un indirizzo come parametro (per esempio l’indirizzo di un buffer), si deve tradurre questo indirizzo nell’indirizzo fisico corretto.
