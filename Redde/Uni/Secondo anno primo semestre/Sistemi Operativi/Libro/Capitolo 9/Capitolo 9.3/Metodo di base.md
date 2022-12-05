@@ -38,3 +38,14 @@ L’indirizzo logico 0 è la pagina 0 con offset 0.
 Secondo la tabella delle pagine, la pagina 0 si trova nel frame 5. 
 Quindi all’indirizzo logico 0 corrisponde l’indirizzo fisico $20 [= (5 × 4) + 0]$. 
 All’indirizzo logico 3 (pagina 0, offset 3) corrisponde l’indirizzo fisico 23 [= (5 × 4) + 3]. Per quel che riguarda l’indirizzo logico 4 (pagina 1, offset 0), secondo la tabella delle pagine, alla pagina 1 corrisponde il frame 6, quindi, all’indirizzo logico 4 corrisponde l’indirizzo fisico 24 [= (6 × 4) + 0]. All’indirizzo logico 13 corrisponde l’indirizzo fisico 9.
+
+Il lettore può aver notato che la paginazione non è altro che una forma di rilocazione dinamica: a ogni indirizzo logico l’architettura di paginazione fa corrispondere un indirizzo fisico. L’uso della tabella delle pagine è simile all’uso di una tabella di registri base (o di rilocazione), uno per ciascun frame.
+
+Con la paginazione si evita la frammentazione esterna: _qualsiasi_ frame libero si può assegnare a un processo che ne abbia bisogno; tuttavia si può avere la frammentazione interna. 
+I frame si assegnano come unità. Poiché in generale lo spazio di memoria richiesto da un processo non è un multiplo delle dimensioni delle pagine, l’_ultimo_ frame assegnato può non essere completamente pieno.
+Il caso peggiore si ha con un processo che necessita di _n_ pagine più un byte: si assegnano _n_ + 1 frame, quindi si ha una frammentazione interna di quasi un intero frame.
+
+Se la dimensione del processo è indipendente dalla dimensione della pagina, si deve prevedere una frammentazione interna media di mezza pagina per processo. 
+Questa considerazione suggerisce che conviene usare pagine di piccole dimensioni; tuttavia, a ogni elemento della tabella delle pagine è associato un overhead che si riduce all’aumentare delle dimensioni delle pagine. Inoltre, con un maggior numero di dati da trasferire, l’i/o su disco è più efficiente.
+Generalmente, nel tempo la dimensione delle pagine è cresciuta col crescere dei processi, dei dati e della memoria centrale; attualmente la dimensione tipica delle pagine è compresa tra 4 kb e 8 kb; in alcuni sistemi può essere anche maggiore. 
+Per esempio, su sistemi x86-64, Windows 10 supporta dimensioni di pagina di 4 kb e 2 mb, mentre Linux supporta una dimensione di pagina predefinita, in genere di 4 kb, e pagine più grandi la cui dimensione dipende dall’architettura, chiamate pagine enormi (_huge page_).
