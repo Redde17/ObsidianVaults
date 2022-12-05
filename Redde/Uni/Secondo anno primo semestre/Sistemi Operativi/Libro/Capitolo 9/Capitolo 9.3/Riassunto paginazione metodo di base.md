@@ -25,4 +25,9 @@ La traduzione avviene tramie la MMU o Memory Managment Unit che svolge i seguent
 L' offset non cambia e pertanto non viene sostituito. Quindi il numero del frame e l'offset combinati formano un indirizzo fisico.
 
 La dimensione di una pagina viene generalmente definita dall'hardaware ed é in genere un potenza di 2. 
-La motivazione per la potenza di 2 risiede nella facilitá di traduzione di un indirizzo logico, poiché 
+La motivazione per la potenza di 2 risiede nella facilitá di traduzione di un indirizzo logico
+non so perché non riesco a capirlo.
+
+Con la paginazione viene eliminata la frammentazione esterna ma rimane ancora quella interna poiché un processo potrebbe richiedere una quantitá di memoria che é minore di quella offerte dalle pagine impiegate.
+Es. un processo che occupa 72.766 byte in un sistema con pagine da 2048 byte occupera 35 pagine piú 1086 byte, quindi si assegnano 36 pagine e nell'ultima pagina rimangono vuoti 962 byte.
+Il caso peggiore che si puó avere é una pagina con
