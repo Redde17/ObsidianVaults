@@ -9,3 +9,20 @@ Le pagine risiedono nella memoria ausiliare o nel file system.
 La memoria ausiliare é a sua volta divisa in blocchi di dimensione fissa
 
 Questa metodologia di gestione della memoria permette di separare gli indirizzi logici da quelli fisici e permettere ad esempio, ad un processo di avere uno spazio degli indirizzi logici a 64 bit nonostante il sistema ha meno di $2^{64}$.  
+
+Ogni inidirizzo logico generato dalla CPU é diviso in due parti, un numero di pagina e un offset di pagina.
+
+Il numero di pagina indica il frame da reperire mentre l'offset di pagina indica da dove iniziare a leggere la memoria.
+
+Per la generazione dell'indirizzo fisico, viene preso il numero di pagina, che svolge la funzione da indice nella tabella delle pagine inerenti al processo e viene tradotto nel frame al quale si vuole accedere, questo dato viene unito insieme all'offset per indicare precisamente all'informazione neccessaria.
+![[Pasted image 20221130164727.png]]
+![[Pasted image 20221130164829.png]]
+
+La traduzione avviene tramie la MMU o Memory Managment Unit che svolge i seguenti passaggi per convertire un indirizzo logico ad un fisico:
+1. Estrae il numero di pagina per utilizzarlo come indice nella tabella delle pagine
+2. Estrarre il numero del frame corrispondente dalla tabella delle pagine 
+3. Sostituire il numero di pagina nell'indirizzo logico con il numero di frame
+L' offset non cambia e pertanto non viene sostituito. Quindi il numero del frame e l'offset combinati formano un indirizzo fisico.
+
+La dimensione di una pagina viene generalmente definita dall'hardaware ed é in genere un potenza di 2. 
+La motivazione per la potenza di 2 risiede nella facilitá di traduzione di un indirizzo logico, poiché 
