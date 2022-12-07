@@ -42,3 +42,24 @@ Il numero del frame così ottenuto viene usato per accedere alla memoria.
 Inoltre, i numeri della pagina e del frame vengono inseriti nel tlb, e al riferimento successivo la ricerca sarà molto più rapida.
 ![[Pasted image 20221207171521.png]]
 
+Se il tlb è già pieno d’elementi, occorre sceglierne uno per sostituirlo. I criteri di sostituzione variano dalla scelta dell’elemento usato meno recentemente (lru), a una politica round-robin, fino alla scelta casuale.
+Alcune cpu permettono al sistema operativo di partecipare alla sostituzione lru di elementi, mentre altre gestiscono in autonomia questa operazione.
+Inoltre alcuni tlb consentono che certi elementi siano vincolati (_wired down_), cioè non si possano rimuovere dal tlb; in genere si vincolano gli elementi per il codice chiave del kernel.
+
+Alcuni **tlb** memorizzano gli identificatori dello spazio d’indirizzi (_address-space identifier_, asid) in ciascun elemento del tlb.
+Un asid identifica in modo univoco ciascun processo e si usa per fornire al processo corrispondente la protezione del suo spazio d’indirizzi.
+Quando tenta di trovare i valori corrispondenti ai numeri delle pagine virtuali, il tlb si assicura che l’asid per il processo attualmente in esecuzione corrisponda all’asid associato alla pagina virtuale. La mancata corrispondenza dell’asid viene trattata come un tlb miss.
+
+Oltre a fornire la protezione dello spazio d’indirizzi, l’asid consente che il tlb contenga nello stesso istante elementi di diversi processi. 
+Se il tlb non permette l’uso di asid distinti, ogni volta che si seleziona una nuova tabella delle pagine, per esempio a ogni cambio di contesto, si deve cancellare (_flush_) il tlb, in modo da assicurare che il successivo processo in esecuzione non faccia uso di errate informazioni di traduzione. 
+Potrebbero altrimenti esserci vecchi elementi del tlb contenenti indirizzi virtuali validi, ma con indirizzi fisici corrispondenti sbagliati o non validi, lasciati dal precedente processo.
+
+La percentuale di volte che il numero di pagina di interesse si trova nel tlb è detta **tasso di successi** (_hit ratio_). 
+Un tasso di successi dell’80 per cento significa che il numero di pagina desiderato si trova nel tlb nell’80 per cento dei casi. 
+
+
+Come abbiamo osservato in precedenza, le cpu di oggi possono fornire più livelli di tlb.
+Per esempio, la cpu Intel Core i7 ha un tlb L1 da 128 elementi per le istruzioni e un tlb L1 da 64 elementi per i dati.
+Un’analisi completa delle prestazioni in un tale sistema richiederebbe informazioni sul tasso di insuccesso di ogni livello di tlb. 
+
+Da quanto abbiamo detto possiamo tuttavia dedurre che le caratteristiche hardware possono condizionare in maniera significativa le prestazioni della memoria e che le migliorie al sistema operativo (come la paginazione) possono indurre modifiche hardware e, a loro volta, essere da queste influenzate (come nel caso del tlb).
