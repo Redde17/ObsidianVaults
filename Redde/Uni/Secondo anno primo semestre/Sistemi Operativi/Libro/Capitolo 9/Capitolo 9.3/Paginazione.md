@@ -2,5 +2,6 @@ La gestione della memoria discussa finora richiedeva che lo spazio di indirizzam
 
 ### 9.3.1 [[Metodo di base]]
 ### 9.3.2 [[Supporto hardware alla paginazione]]
+- ##### 9.3.2.1 TLB
 ### 9.3.3 [[Protezione]]
 ### 9.3.4 [[Pagine condivise]]
