@@ -30,3 +30,20 @@ Come caso estremo, è possibile avviare l’esecuzione di un processo _senza_ 
 In un caso del genere il programma generea page fault dalla prima istruzione e il programma viene caricato mentre si esegue.
 
 Lo schema descritto è una paginazione su richiesta pura, vale a dire che una pagina non si trasferisce mai in memoria se non viene richiesta.
+
+L’hardware di supporto alla paginazione su richiesta è lo stesso che è richiesto per la paginazione e l’avvicendamento dei processi in memoria:
+- Tabella delle pagine con bit di validitá.
+- Memoria secondaria per le pagine non in memoria centrale.
+
+Uno dei requisiti cruciali della paginazione su richiesta è la possibilità di rieseguire una qualunque istruzione dopo un page fault.
+Avendo salvato lo stato del processo interrotto al momento del page fault, occorrerà riavviare il processo _esattamente_ dallo stesso punto e con lo stesso stato, eccezion fatta per la presenza della pagina desiderata in memoria.
+Nella maggior parte dei casi questo requisito è facile da soddisfare.
+Un page fault si può verificare per qualsiasi riferimento alla memoria.
+Se si verifica durante la fase di fetch (prelievo) di un’istruzione, l’esecuzione si può riavviare effettuando nuovamente il fetch.
+Se si verifica durante il fetch di un operando, bisogna effettuare nuovamente fetch e decode dell’istruzione, quindi si può prelevare l’operando.
+
+La difficoltà maggiore si presenta quando un’istruzione può modificare parecchie locazioni diverse.
+(libro)
+
+Il sistema di paginazione si colloca tra la cpu e la memoria di un calcolatore e deve essere completamente trasparente al processo utente.
+
