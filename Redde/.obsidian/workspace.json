@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd94e2057b117fb2",
+            "id": "dbd1cc9cc373a9c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d92e911efcf83c88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/Progetto BD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24f1043eca6c3eda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.4/Struttura della tabella delle pagine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cb0677c5ec4dd36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento standard.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.1/Introduzione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento standard.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.1/Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento standard.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.1/Introduzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento standard.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.1/Introduzione.md"
               }
             }
           }
@@ -173,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5cb0677c5ec4dd36",
+  "active": "dbd1cc9cc373a9c3",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento dei processi (swapping).md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento standard.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.4/Tabella delle pagine invertita.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.4/Paginazione gerarchica.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.4/Struttura della tabella delle pagine.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/Progetto BD.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/DBMS.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Pagine condivise.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Protezione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Supporto hardware alla paginazione.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Metodo di base.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Paginazione.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Frammentazione.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Allocazione della memoria.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Protezione della memoria.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.2/Allocazione contigua della memoria.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Linking dinamico e librerie condivise.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Caricamento dinamico.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Spazi di indirizzi logici e fisici.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.1/Associazione degli indirizzi.md"
   ]
 }
