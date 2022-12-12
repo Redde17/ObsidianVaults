@@ -6,7 +6,9 @@ Il problema, però, è che all’inizio non è detto che serva avere tutto il pr
 Una strategia alternativa consiste nel caricare le pagine nel momento in cui servono realmente; si tratta di una tecnica, detta **paginazione su richiesta**, comunemente adottata dai sistemi con memoria virtuale.
 Secondo questo schema, le pagine sono caricate in memoria solo quando richieste durante l’esecuzione del programma: ne consegue che le pagine cui non si accede mai non sono mai caricate nella memoria fisica.
 
-
+I processi risiedono in memoria secondaria.
+La paginazione su richiesta mostra uno dei principali vantaggi della memoria virtuale: 
+**caricando solo le parti necessarie dei programmi la memoria viene utilizzata in modo più efficiente**.
 
 ### 10.2.1 [[Concetti fondamentali]]
 ### 10.2.2 [[Lista dei frame liberi]]
