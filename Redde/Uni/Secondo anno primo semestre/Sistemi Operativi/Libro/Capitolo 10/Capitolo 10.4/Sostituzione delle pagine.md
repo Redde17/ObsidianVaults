@@ -1,0 +1,6 @@
+### 10.4.1 [[Sostituzione di pagina]]
+### 10.4.2  [[Sostituzione delle pagine secondo l’ordine d’arrivo (fifo)]]
+### 10.4.3 [[Sostituzione ottimale delle pagine]]
+### 10.4.4 [[Sostituzione delle pagine usate meno recentemente (lru)]]
+### 10.4.5 [[Sostituzione delle pagine per approssimazione a lru]]
+### 10.4.6 [[Sostituzione delle pagine basata su conteggio]]

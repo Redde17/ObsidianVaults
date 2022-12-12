@@ -30,9 +30,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96fb1b3b27179c13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "017a0ddda317c40b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione dei frame.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9785db901c741a4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.6/Thrashing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4602d93c02cc6b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Memoria di massa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -98,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Prestazioni della paginazione su richiesta.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Memoria di massa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Prestazioni della paginazione su richiesta.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Memoria di massa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Prestazioni della paginazione su richiesta.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Memoria di massa.md"
               }
             }
           }
@@ -149,17 +197,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e052646689b017f9",
+  "active": "b4602d93c02cc6b3",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Lista dei frame liberi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Concetti fondamentali.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Paginazione su richiesta.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Prestazioni della paginazione su richiesta.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Protezione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Supporto hardware alla paginazione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Pagine condivise.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.5/Avvicendamento dei processi (swapping).md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.1/Introduzione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 9/Capitolo 9.3/Metodo di base.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.6/Thrashing.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione dei frame.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine usate meno recentemente (lru).md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione ottimale delle pagine.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine secondo l’ordine d’arrivo (fifo).md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione di pagina.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Prestazioni della paginazione su richiesta.md"
   ]
 }
