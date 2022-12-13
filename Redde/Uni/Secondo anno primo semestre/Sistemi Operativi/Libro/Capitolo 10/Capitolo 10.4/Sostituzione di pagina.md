@@ -12,3 +12,5 @@ Il frame liberato si può usare per memorizzare la pagina che ha causato il faul
 4.  si riprende il processo dal punto in cui si è verificato il page fault.
 
 Occorre notare che, se non esiste alcun frame libero sono necessari _due_ trasferimenti di pagine, uno fuori e uno dentro la memoria. Questa situazione raddoppia il tempo di servizio del page fault e aumenta di conseguenza anche il tempo effettivo d’accesso.
+
+Questo sovraccarico si può ridurre usando un bit di modifica (_modify bit_ o _dirty bit_). In questo caso l’hardware del calcolatore dispone di un bit di modifica, associato a ogni pagina (o frame), che viene posto a 1 ogni volta che nella pagina si scrive un byte, indicando che la pagina è stata modificata.
