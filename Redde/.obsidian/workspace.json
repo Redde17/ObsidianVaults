@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "80cced52b099061a",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine basata su conteggio.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine usate meno recentemente (lru).md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione di pagina.md",

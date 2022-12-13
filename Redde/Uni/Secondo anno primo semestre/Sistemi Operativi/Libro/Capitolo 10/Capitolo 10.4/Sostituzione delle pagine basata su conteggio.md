@@ -1,0 +1,7 @@
+Esistono molti altri algoritmi che si possono usare per la sostituzione delle pagine. 
+Per esempio, si potrebbe usare un contatore del numero dei riferimenti fatti a ciascuna pagina, e sviluppare i due seguenti schemi.
+-   Algoritmo di sostituzione delle pagine meno frequentemente usate (_least frequently used_, lfu); richiede che si sostituisca la pagina con il conteggio più basso. La ragione di questa scelta è che una pagina usata attivamente deve avere un conteggio di riferimento alto. Si ha però un problema quando una pagina è usata molto intensamente durante la fase iniziale di un processo, ma poi non viene più usata. Poiché è stata usata intensamente il suo conteggio è alto, quindi rimane in memoria anche se non è più necessaria. Una soluzione può essere quella di spostare i valori dei contatori a destra di un bit a intervalli regolari, misurando l’utilizzo con un peso esponenziale decrescente.
+    
+-   Algoritmo di sostituzione delle pagine più frequentemente usate (_most frequently used_, mfu); è basato sul fatto che, probabilmente, la pagina con il contatore più basso è stata appena inserita e non è stata ancora usata.
+
+Le sostituzioni mfu e lfu non sono molto comuni, poiché la realizzazione di questi algoritmi è abbastanza onerosa; inoltre, tali algoritmi non approssimano bene la sostituzione opt.
