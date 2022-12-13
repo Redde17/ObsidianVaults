@@ -10,3 +10,5 @@ Il frame liberato si può usare per memorizzare la pagina che ha causato il faul
     c. si scrive la pagina “vittima” nel disco; si di conseguenza le tabelle delle pagine e quelle dei frame;
 3.  si scrive la pagina richiesta nel frame appena liberato; si modificano le tabelle delle pagine e dei frame;
 4.  si riprende il processo dal punto in cui si è verificato il page fault.
+
+Occorre notare che, se non esiste alcun frame libero sono necessari _due_ trasferimenti di pagine, uno fuori e uno dentro la memoria. Questa situazione raddoppia il tempo di servizio del page fault e aumenta di conseguenza anche il tempo effettivo d’accesso.
