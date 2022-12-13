@@ -1,0 +1,27 @@
+Se l’algoritmo ottimale non è realizzabile, è forse possibile realizzarne un’approssimazione.
+La distinzione fondamentale tra gli algoritmi fifo e opt, oltre quella di guardare avanti o indietro nel tempo, consiste nel fatto che l’algoritmo fifo impiega l’istante in cui una pagina è stata caricata in memoria, mentre l’algoritmo opt impiega l’istante in cui una pagina sarà _usata_.
+Usando come approssimazione di un futuro vicino un passato recente, si sostituisce la pagina che _non è stata usata_ per il periodo più lungo. Il metodo appena descritto è noto come algoritmo lru (_least recently used_).
+
+La sostituzione lru associa a ogni pagina l’istante in cui è stata usata per l’ultima volta. Quando occorre sostituire una pagina, l’algoritmo lru sceglie quella che non è stata usata per il periodo più lungo. Possiamo interpretare questa strategia come l’algoritmo ottimale di sostituzione delle pagine con ricerca all’indietro nel tempo, anziché in avanti.
+
+Il risultato dell’applicazione dell’algoritmo lru alla successione dei riferimenti dell’esempio è illustrato nella seguente figura. 
+![[Pasted image 20221213171711.png]]
+L’algoritmo lru produce 12 page fault. Occorre notare che i primi cinque page fault sono gli stessi della sostituzione ottimale. 
+Quando si presenta il riferimento alla pagina 4, però, l’algoritmo lru trova che, fra i tre blocchi di memoria, quello usato meno recentemente è della pagina 2. 
+Quindi, l’algoritmo lru sostituisce la pagina 2 senza sapere che sta per essere usata. 
+Quando si verifica il fault della pagina 2, l’algoritmo lru sostituisce la pagina 3, poiché, fra le tre pagine in memoria (0, 3, 4), la pagina 3 è quella usata meno recentemente. Nonostante questi problemi, la sostituzione lru, con 12 page fault, è molto migliore della sostituzione fifo, con 15 page fault.
+
+Il criterio lru si usa spesso come algoritmo di sostituzione delle pagine ed è considerato valido.
+Il problema principale riguarda la sua implementazione. 
+Un algoritmo di sostituzione delle pagine lru può richiedere una notevole assistenza da parte dell’hardware. Il problema consiste nel determinare un ordine per i frame definito dal momento dell’ultimo uso. Si possono realizzare le due seguenti soluzioni.
+-   **Contatori**. Nel caso più semplice, a ogni elemento della tabella delle pagine si associa un campo _momento di utilizzo_, e alla cpu si aggiunge un contatore che si incrementa a ogni riferimento alla memoria. Ogni volta che si fa un riferimento a una pagina, si copia il contenuto del registro contatore nel campo _momento di utilizzo_ nella voce della page table relativa a quella pagina. In questo modo è sempre possibile conoscere il momento in cui è stato fatto l’ultimo riferimento a ogni pagina. Si sostituisce la pagina con il valore associato più piccolo. Questo schema implica una ricerca all’interno della tabella delle pagine per individuare la pagina usata meno recentemente (lru), e una scrittura in memoria (nel campo _momento di utilizzo_ della tabella delle pagine) per ogni accesso alla memoria. I riferimenti temporali si devono mantenere anche quando, a seguito dello scheduling della cpu, si modificano le tabelle delle pagine. Occorre infine considerare l’overflow del contatore.
+    
+-   **Stack**. Un altro metodo per la realizzazione della sostituzione delle pagine lru prevede l’utilizzo di uno stack dei numeri delle pagine. Ogni volta che si fa un riferimento a una pagina, la si estrae dallo stack e la si colloca in cima a quest’ultimo. In questo modo, in cima allo stack si trova sempre la pagina usata per ultima, mentre in fondo si trova la pagina usata meno recentemente, com’è illustrato dalla Figura 10.16. Poiché gli elementi si devono estrarre dal centro dello stack, la migliore realizzazione si ottiene usando una lista doppiamente concatenata, con un puntatore all’elemento iniziale e uno a quello finale. Per estrarre una pagina dallo stack e collocarla in cima, nel caso peggiore è necessario modificare sei puntatori. Ogni aggiornamento è un po’ più costoso, ma per una sostituzione non si deve compiere alcuna ricerca: il puntatore dell’elemento di coda punta alla pagina lru. Questo metodo è adatto soprattutto alle realizzazioni programmate (o microprogrammate) della sostituzione lru.
+ ![[Pasted image 20221213172149.png]]
+é la sostituzione ottimale né quella lru sono soggette all’anomalia di Belady.
+Entrambe appartengono a una classe di algoritmi di sostituzione delle pagine, chiamati algoritmi a stack, che non presenta l’anomalia di Belady. 
+Un algoritmo a stack è un algoritmo per il quale è possibile mostrare che l’insieme delle pagine in memoria per _n_ frame è sempre un _sottoinsieme_ dell’insieme delle pagine che dovrebbero essere in memoria per _n_ + 1 frame. Per la sostituzione lru, l’insieme di pagine in memoria è costituito delle _n_ pagine cui si è fatto riferimento più recentemente. 
+Se il numero dei frame è aumentato, queste _n_ pagine continuano a essere quelle cui si è fatto riferimento più recentemente e quindi restano in memoria.
+
+Si noti che senza un supporto hardware sarebbero inconcepibili entrambe le implementazioni della sostituzione lru. L’aggiornamento dei campi del contatore o dello stack si deve effettuare per _ogni_ riferimento alla memoria.
+Pochi sistemi potrebbero permettere un tale sovraccarico per la gestione della memoria.
