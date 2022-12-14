@@ -1,0 +1,11 @@
+Concettualmente, i dischi sono relativamente semplici: i piatti dei dischi hanno una forma piana e rotonda come quella dei cd, con un diametro che comunemente varia tra 1,8 e 3,5 pollici, e le due superfici ricoperte di materiale magnetico; le informazioni si memorizzano registrandole magneticamente sui piatti e vengono lette rilevando la configurazione magnetica memorizzata.
+![[Pasted image 20221214191753.png]]
+
+Una testina di lettura e scrittura è sospesa su ciascuna superficie d’ogni piatto. 
+Le testine sono attaccate al braccio del disco che le muove in blocco. La superficie di un piatto è divisa logicamente in tracce circolari a loro volta suddivise in settori; l’insieme delle tracce corrispondenti a una posizione del braccio costituisce un cilindro. 
+In un’unità a disco possono esservi migliaia di cilindri concentrici e ogni traccia può contenere centinaia di settori. Ogni settore ha una dimensione fissa, che è la più piccola unità di trasferimento. Le dimensioni del settore erano in genere di 512 byte, ma dal 2010 molti produttori hanno iniziato a migrare verso settori di 4kb. 
+La capacità di memorizzazione di una comune unità a disco si misura in gigabyte o terabyte.
+
+Quando un disco è in funzione, un motore lo fa ruotare ad alta velocità; la maggior parte dei dischi ruota a velocità comprese tra 60 e 250 giri al secondo. Questa velocità viene espresse in termini di giri al minuto (rpm): i comuni dischi possono lavorare alle velocità di 5400, 7200, 10000 o 15000 rpm. Alcune unità si spengono quando non sono in uso e si accendono dopo aver ricevuto una richiesta di i/o.
+
+La velocità di rotazione è in relazione con la velocità di trasferimento (_transfer rate_), ovvero la velocità con cui i dati fluiscono dall’unità a disco al calcolatore. Un secondo aspetto relativo alle prestazioni è il tempo di posizionamento, detto anche tempo d’accesso casuale, che consiste di due componenti: il tempo necessario a spostare il braccio del disco in corrispondenza del cilindro desiderato, detto tempo di ricerca (_seek time_), e il tempo necessario affinché il settore desiderato si porti, tramite la rotazione del disco, sotto la testina, detto latenza di rotazione.
