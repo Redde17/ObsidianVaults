@@ -1,0 +1,18 @@
+I dispositivi di archiviazione sono indirizzati come grandi vettori unidimensionali di blocchi logici, in cui il blocco logico è la più piccola unità di trasferimento. Ogni blocco logico viene mappato su un settore fisico o su una pagina di un dispositivo a semiconduttore e l’intero vettore di blocchi logici è mappato sui settori o sulle pagine del dispositivo. 
+Per esempio, il settore 0 può essere il primo settore della prima traccia sul cilindro più esterno di un hdd. La mappatura procede in ordine su quella traccia, quindi attraverso il resto delle tracce sullo stesso cilindro, e infine attraverso il resto dei cilindri, dall’esterno all’interno. 
+Nei dispositivi nvm una tupla (una lista ordinata e finita) <_chip, blocco, pagina_> viene mappata su un vettore di blocchi logici. 
+Un indirizzo di blocco logico (lba) può essere utilizzato dagli algoritmi in maniera più semplice rispetto a una tupla <_settore, cilindro, testina_> o a una tupla <_chip, blocco, pagina_>.
+
+Usando questa mappatura su un disco rigido, possiamo, almeno in teoria, convertire un numero di blocco logico in un indirizzo “vecchio stile” del disco formato da un numero di cilindro, un numero di traccia all’interno di quel cilindro e un numero di settore all’interno di quella traccia. 
+Nella pratica è difficile eseguire questa traduzione, per tre motivi.
+- Innanzitutto, la maggior parte delle unità presenta alcuni settori difettosi, che la mappatura nasconde sostituendoli con settori di riserva collocati in altre posizioni sull’unità: in questo caso l’indirizzo del blocco logico rimane sequenziale, ma la posizione del settore fisico cambia. 
+- In secondo luogo, su alcune unità il numero di settori per traccia non è costante.
+- Infine, i produttori di dischi gestiscono la mappatura di lba su indirizzi fisici internamente, pertanto nelle unità che si utilizzano ora esiste una scarsa relazione tra lba e settori fisici.
+Nonostante queste peculiarità degli indirizzi fisici, gli algoritmi che gestiscono gli hdd tendono a presumere che gli indirizzi logici siano relativamente correlati agli indirizzi fisici, ovvero ad associare la crescita dell’indirizzo logico con una crescita dell’indirizzo fisico.
+
+Diamo un’occhiata più da vicino al secondo motivo. Sui dispositivi con velocità lineare costante (clv), la densità dei bit per traccia è uniforme. Più una traccia si trova lontana dal centro del disco, maggiore è la sua lunghezza e più settori può contenere, mentre spostandosi dalle zone esterne a quelle interne, il numero di settori per traccia diminuisce. Le tracce nella zona più esterna contengono in genere il 40 percento di settori in più rispetto alle tracce nella zona più interna. L’unità aumenta la sua velocità di rotazione quando la testina si sposta dalle tracce esterne a quelle interne, in modo da mantenere invariata la quantità di dati in movimento sotto la testina. 
+Questo metodo è utilizzato nelle unità cd-rom e dvd-rom. In alternativa, la velocità di rotazione del disco può rimanere costante. 
+In questo caso, la densità dei bit diminuisce spostandosi dalle tracce interne alle tracce esterne in modo da mantenere costante la velocità di trasmissione dei dati (e fare in modo che le prestazioni siamo simili indipendentemente dalla posizione dei dati sull’unità). 
+Questo metodo è utilizzato nei dischi rigidi ed è noto come _velocità angolare costante_ (cav).
+
+Il numero di settori per traccia è aumentato al migliorare della tecnologia dei dischi: oggi la zona esterna di un disco contiene generalmente diverse centinaia di settori per traccia. Analogamente, il numero di cilindri per disco è aumentato e i dischi di grandi dimensioni hanno ora decine di migliaia di cilindri.
