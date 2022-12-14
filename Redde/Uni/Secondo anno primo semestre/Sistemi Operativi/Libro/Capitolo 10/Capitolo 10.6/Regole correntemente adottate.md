@@ -1,0 +1,2 @@
+Il thrashing e l’avvicendamento dei processi hanno un pessimo impatto sulle prestazioni. 
+La miglior regola adottata attualmente nella realizzazione dei computer è quella di includere una quantità di memoria fisica sufficiente a evitare thrashing e avvicendamento, quando possibile. Sia quando si parla di smartphone che nel caso di mainframe, fornire una quantità di memoria sufficiente a mantenere tutti gli insiemi di lavoro contemporaneamente in memoria, eccetto in condizioni estreme, offre all’utente la migliore esperienza d’uso possibile.

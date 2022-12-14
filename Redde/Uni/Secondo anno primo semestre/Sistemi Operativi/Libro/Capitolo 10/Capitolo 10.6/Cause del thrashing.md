@@ -29,4 +29,9 @@ Una località è un insieme di pagine usate attivamente insieme. Generalmente un
 
 La seguente figura illustra il concetto di località e come la località di un processo cambia nel tempo. 
 ![[Pasted image 20221214174802.png]]
-Al momento (a), la località è l’insieme di pagine {18, 19, 20, 21, 22, 23, 24, 29, 30, 33}. Al momento (b), la località cambia in {18, 19, 20, 24, 25, 26, 27, 28, 29, 31, 32, 33}. Si noti la sovrapposizione: alcune pagine (per esempio, 18, 19 e 20) fanno parte di entrambe le località.
+Al momento (a), la località è l’insieme di pagine {18, 19, 20, 21, 22, 23, 24, 29, 30, 33}. 
+Al momento (b), la località cambia in {18, 19, 20, 24, 25, 26, 27, 28, 29, 31, 32, 33}. Si noti la sovrapposizione: alcune pagine (per esempio, 18, 19 e 20) fanno parte di entrambe le località.
+
+Quindi, le località sono definite dalla struttura del programma e dalle relative strutture dati. Il modello di località sostiene che tutti i programmi mostrino questa struttura di base di riferimenti alla memoria. Si noti che il modello di località è il principio non dichiarato sottostante all’analisi fin qui svolta sul caching. Se gli accessi ai vari tipi di dati fossero casuali, anziché strutturati in località, il caching sarebbe inutile.
+
+Si supponga di allocare a un processo un numero di frame sufficiente per sistemare le sue località attuali. Finché tutte queste pagine non si trovano in memoria, si verificano le assenze delle pagine relative a tali località; quindi, finché le località non vengano modificate, non hanno luogo altri page fault. Se si assegnano meno frame rispetto alla dimensione della località attuale, la paginazione del processo degenera, poiché non si possono tenere in memoria tutte le pagine che il processo sta usando attivamente.
