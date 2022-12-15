@@ -1,0 +1,15 @@
+Affinché un calcolatore possa entrare in funzione, per esempio quando viene acceso o riavviato, è necessario che esegua un programma iniziale; di solito, questo programma d’avviamento iniziale (_bootstrap_) è piuttosto semplice. Nella maggior parte dei calcolatori il bootstrap è memorizzato nel firmware (una memoria flash nvm) sulla scheda madre del sistema e mappato su una posizione di memoria nota. 
+Il bootstrap può essere aggiornato dall’azienda produttrice secondo necessità, ma può anche essere sovrascritto da virus, infettando il sistema. Questo programma inizializza tutti gli aspetti del sistema, dai registri della cpu ai controllori dei dispositivi, al contenuto della memoria principale.
+
+Il piccolo programma che carica il bootstrap (_bootstrap loader_) è anche in grado di caricare dalla memoria secondaria un programma di bootstrap completo, che è memorizzato nei blocchi di avvio in una posizione fissa del dispositivo.
+Un dispositivo contenente una partizione di avvio è chiamato disco di avvio o disco di sistema.
+
+Il codice contenuto nella nvm d’avviamento istruisce il controllore dell’unità a disco affinché trasferisca il contenuto dei blocchi d’avviamento nella memoria (si noti che a questo fine non si carica alcun driver di dispositivo), quindi comincia a eseguire il codice. 
+Il programma d’avviamento completo è più complesso del suo caricatore, ed è capace di trasferire nella memoria l’intero sistema operativo inizialmente residente in un dispositivo, in una locazione non fissata a priori, e di avviare il sistema operativo stesso.
+
+Consideriamo come esempio il processo d’avviamento in Windows. 
+Osserviamo innanzitutto che Windows consente di suddividere il disco rigido in una o più partizioni; in una di esse, detta partizione d’avviamento, sono contenuti il sistema operativo e i driver dei dispositivi. Windows colloca il proprio codice d’avviamento nel primo blocco logico del disco fisso o nella prima pagina del dispositivo nvm, denominato mbr (_master boot record_). 
+La procedura d’avviamento inizia con l’esecuzione del codice residente nel firmware del sistema. Questo codice fa sì che il sistema legga il codice d’avviamento dall’mbr, conoscendo quanto basta sul controllore del dispositivo di archiviazione e sul dispositivo stesso per poter caricare un settore.
+Oltre al codice d’avviamento, l’mbr contiene una tabella che elenca le partizioni del dispositivo e un flag che indica da quale partizione si debba avviare il sistema, com’è illustrato nella seguente figura.
+![[Pasted image 20221215173716.png]]
+Dopo aver identificato la partizione d’avviamento, il sistema legge da tale partizione il primo settore (chiamato settore d’avviamento) e svolge le restanti procedure d’avviamento, tra cui il caricamento dei vari sottosistemi e dei servizi del sistema.
