@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Connessione dei dispositivi di memorizzazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Connessione dei dispositivi di memorizzazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Connessione dei dispositivi di memorizzazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Connessione dei dispositivi di memorizzazione.md"
               }
             }
           }
@@ -138,9 +138,9 @@
   },
   "active": "80cced52b099061a",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocco d’avviamento.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Formattazione del disco, partizioni e volumi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Gestione delle unità di memoria secondaria.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Mappatura degli indirizzi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Metodi di connessione alla memoria secondaria.md",
