@@ -1,0 +1,12 @@
+Un dispositivo nas (_network-attached storage_) fornisce l’accesso allo spazio di archiviazione attraverso una rete e può essere costituito da un sistema di memoria specializzato oppure da un normale computer che fornisce il suo spazio di archiviazione ad altri host attraverso la rete.
+![[Pasted image 20221215202118.png]]
+I client accedono alla memoria connessa alla rete tramite un’interfaccia rpc, come l’nfs nel caso dei sistemi unix e Linux o cifs nel caso di sistemi Windows. 
+Le chiamate di procedura remota (rpc) sono realizzate per mezzo dei protocolli tcp o udp sopra una rete ip (di solito la stessa rete locale che porta tutto il traffico dati ai client).
+Può quindi risultare più semplice pensare a nas come a un ulteriore protocollo di accesso alla memoria secondaria. L’unità di memoria è normalmente realizzata come una batteria di dispositivi di memorizzazione (storage array) con programmi di controllo che implementano l’interfaccia per le rpc.
+
+cifs e nfs offrono varie funzioni di lock, consentendo la condivisione di file tra host che accedono a un nas mediante tali protocolli. Per esempio, un utente che ha effettuato l’accesso a più client di un nas può accedere alla sua home directory da tutti questi client contemporaneamente.
+
+La memoria secondaria connessa alla rete fornisce un modo semplice per condividere spazio di storage per tutti i calcolatori di una lan, con la stessa facilità di gestione dei nomi e degli accessi caratteristica della memoria secondaria connessa alla macchina. 
+Tuttavia, un sistema di questo genere tende a essere meno efficiente e ad avere prestazioni inferiori rispetto ad alcuni sistemi con connessione diretta alla macchina.
+
+iscsi è il più recente protocollo per la memoria connessa alla rete. Essenzialmente sfrutta il protocollo ip della rete per il trasporto del protocollo scsi. Ne consegue la possibilità di usare la rete invece che cavi scsi per connettere le diverse macchine alla memoria secondaria. Uno dei vantaggi di questa tecnica è che le macchine sono in grado di trattare la memoria secondaria come se fosse direttamente collegata, sebbene possa essere collocata a distanza. Mentre nfs e cifs presentano un file system e inviano parti di file attraverso la rete, iscsi invia sulla rete blocchi logici e lascia al client la possibilità di utilizzare direttamente i blocchi o di creare con essi un file ­system.
