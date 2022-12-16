@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Livelli raid.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Livelli raid.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Livelli raid.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Livelli raid.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   "active": "80cced52b099061a",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Strutture RAID.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Miglioramento delle prestazioni tramite il parallelismo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Miglioramento dell’affidabilità tramite la ridondanza.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
@@ -146,7 +147,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria su cloud.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria connessa alla rete.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria connessa alla macchina.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocco d’avviamento.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md"
   ]
 }
