@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Strutture RAID.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Strutture RAID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Strutture RAID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Strutture RAID.md"
               }
             }
           }
@@ -136,8 +136,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c30b71aab2fe6079",
+  "active": "80cced52b099061a",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Connessione dei dispositivi di memorizzazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria su cloud.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria connessa alla rete.md",
@@ -146,7 +147,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocco d’avviamento.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Formattazione del disco, partizioni e volumi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Gestione delle unità di memoria secondaria.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Mappatura degli indirizzi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Metodi di connessione alla memoria secondaria.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Mappatura degli indirizzi.md"
   ]
 }
