@@ -43,8 +43,24 @@ Questa tecnica può evitare la maggior parte dei cicli di lettura-modifica-scrit
 	Questo schema è illustrato nella Figura 11.15(d), dove i simboli _P_ sono distribuiti su tutte le unità. 
 	Un blocco di parità non può contenere informazioni di parità per blocchi che risiedono nella stessa unità, poiché un guasto all’unità provocherebbe sia la perdita di dati sia la perdita dell’informazione di parità e quindi i dati non sarebbero ripristinabili. Con la distribuzione della parità sui diverse unità, il raid di livello 5 evita un uso intensivo dell’ unità dove risiede la parità, che invece si ha con il raid di livello 4.
 	 raid 5 è il più comune sistema di parità raid.
+
 -  raid di livello 6. 
 	Il livello 6, detto anche schema di ridondanza P + Q, è molto simile al raid di livello 5, ma memorizza ulteriori informazioni ridondanti per poter gestire guasti contemporanei di più dischi. 
 	La parità xor non può essere utilizzata su entrambi i blocchi di parità perché sarebbero identici e non potrebbero fornire informazioni di ripristino. 
 	Invece della parità, per calcolare Q vengono utilizzati codici di correzione degli errori basati sulla matematica dei campi di Galois. 
 	Nello schema mostrato nella Figura 11.15 (e) sono memorizzati 2 blocchi di dati ridondanti per ogni 4 blocchi di dati (a differenza di 1 blocco di parità usato nel livello 5) e il sistema risultante può tollerare due guasti delle unità.
+
+-  raid di livello 6 multidimensionale. 
+	Alcuni sofisticati storage array ampliano il raid di livello 6. Si consideri un array contenente centinaia di unità. L’inserimento di tali unità in una sezione raid di livello 6 determinerebbe la presenza di molte unità dati e solo due unità di parità logica. Il raid di livello 6 multidimensionale organizza logicamente le unità in righe e colonne (in array di dimensione due o superiore) e implementa il raid di livello 6 sia orizzontalmente lungo le righe che verticalmente lungo le colonne. Il sistema è in grado di ripristinare qualsiasi errore, o anche più errori, utilizzando blocchi di parità in una di queste posizioni. 
+	Questo livello di raid è mostrato nella Figura 11.15(f). Per semplicità, la figura mostra la parità raid su unità dedicate, ma in realtà i blocchi raid sono sparsi su righe e colonne.
+
+-   raid di livello 0 + 1 e 1 + 0. 
+	Il livello 0 + 1 consiste in una combinazione dei livelli raid 0 e 1. 
+	Il livello 0 fornisce le prestazioni, mentre il livello 1 l’affidabilità. 
+	Di solito, questo schema porta a prestazioni migliori rispetto a livello 5 e si usa prevalentemente negli ambienti in cui sono importanti sia le prestazioni sia l’affidabilità. 
+	Sfortunatamente, questo schema richiede, come il raid di livello 1, un raddoppio del numero di dischi necessario per memorizzare i dati, quindi è anche relativamente costoso. 
+	Nel raid di livello 0 + 1, si effettua lo striping su un insieme di dischi e si duplica ogni sezione con la tecnica del mirroring.
+
+Un altro metodo che sta diventando disponibile commercialmente è il raid di livello 1 + 0, in cui si fa prima il mirroring dei dischi a coppie, e poi lo striping di queste coppie. Questo schema raid ha alcuni vantaggi teorici rispetto al raid 0 + 1. Per esempio, se si guasta una singola unità nel raid 0 + 1, l’intera sezione di dati diventa inaccessibile, lasciando disponibile solo l’altra sezione. Con un guasto nel raid 1 + 0, la singola unità diventa inaccessibile, ma il suo duplicato è ancora disponibile, come tutte le altre unità (Figura 11.16).
+
+![[Pasted image 20221216192055.png]]
