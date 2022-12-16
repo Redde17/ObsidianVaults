@@ -1,0 +1,20 @@
+-----------
+#### Riassunto
+Per migliorare l'affidabilitá di un sistema di memorizzazione con piú dischi si puó applicare una tecnica chiamata mirroring che consiste nel copiare il cotenuto di un disco in un altro, cosí in caso di guasto di un disco si puó usare il secondario per reperirne i dati
+
+-------------
+
+Consideriamo in primo luogo l’affidabilità dei raid di dischi.
+La possibilità che uno dei dischi in un insieme di _n_ dischi si guasti è molto più alta della possibilità che uno specifico disco presenti un guasto.
+Si supponga che il tempo medio di guasto (_mean time between failures_, mtbf) di un singolo disco sia 100.000 ore. In questo caso, il tempo medio di guasto per un qualsiasi disco in una batteria di 100 dischi sarebbe 100.000/100 = 1000 ore, o 41,66 giorni: non molto tempo! Se si memorizzasse una sola copia dei dati, allora ogni guasto di un disco comporterebbe la perdita di una notevole quantità di dati; una frequenza di perdita di dati così alta sarebbe inaccettabile.
+
+La soluzione al problema dell’affidabilità sta nell’introdurre una certa ridondanza, cioè nel memorizzare informazioni che non sono normalmente necessarie, ma che si possono usare nel caso di un guasto a un disco per ricostruire le informazioni perse. Il raid può essere applicato anche ai dispositivi nvm, sebbene i dispositivi nvm non abbiano parti mobili e siano quindi meno soggetti a guasti rispetto agli hdd.
+
+Il metodo più semplice (ma anche il più costoso) di introduzione di ridondanza è quello della duplicazione di ogni disco. Questo metodo è detto mirroring (_copiatura speculare_): ogni disco logico consiste di due dischi fisici e ogni scrittura si effettua in entrambi i dischi. Si ottiene un disco duplicato (detto mirrored volume). Se uno dei dischi si guasta, i dati si possono leggere dall’altro. I dati si perdono solo se il secondo disco si guasta prima della sostituzione del disco già guasto.
+
+L’mtbf di un disco duplicato, dove per _guasto_ s’intende ora la perdita di dati, dipende da due fattori: il tempo medio tra due guasti di un singolo disco e il tempo medio di riparazione, cioè il tempo richiesto (in media) per sostituire un disco guasto e ripristinarvi i dati. Supponendo che i possibili guasti dei due dischi siano indipendenti, vale a dire che il guasto di un disco non sia mai legato a quello dell’altro, se il tempo medio di guasto di un singolo disco è 100.000 ore e il tempo medio di riparazione è di 10 ore, allora il tempo medio di perdita di dati di un sistema con mirroring è 100.0002/(2 * 10) = 500 * 106 ore, che corrispondono a 57.000 anni!
+
+Occorre però notare che non è possibile assumere l’ipotesi di indipendenza tra i guasti dei dischi. Improvvisi cali di tensione e disastri naturali, quali terremoti, incendi e alluvioni, danneggerebbero con tutta probabilità entrambi i dischi. Inoltre, difetti di fabbricazione in una partita di dischi possono causare guasti correlati. Con l’invecchiamento del disco, la probabilità di un guasto aumenta, accrescendo la probabilità che un secondo disco si guasti mentre il primo è in riparazione. Tuttavia, nonostante tutte queste considerazioni, i sistemi con mirroring offrono un’affidabilità assai più alta dei sistemi a disco singolo.
+
+I casi di caduta di alimentazione elettrica costituiscono un problema particolarmente sentito, poiché avvengono con una frequenza molto più alta dei disastri naturali. Anche impiegando il mirroring, se si sta svolgendo un’operazione di scrittura nello stesso blocco in entrambi i dischi e si verifica una caduta di alimentazione prima che sia completata la scrittura dell’intero blocco, i due blocchi possono ritrovarsi in uno stato incoerente. Una soluzione prevede la scrittura di una delle due copie e solo successivamente la scrittura della seconda. Un’altra soluzione è aggiungere una memoria non volatile a stato solido (nvram, _non-volatile_ _ram_) alla batteria raid, protetta dalla perdita di dati causata dalle cadute di alimentazione: se è dotata di forme di correzione d’errore come ecc o mirroring, la scrittura dei dati nella cache può essere
+
