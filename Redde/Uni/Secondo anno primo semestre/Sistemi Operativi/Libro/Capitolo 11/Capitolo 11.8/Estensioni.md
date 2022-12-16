@@ -1,0 +1,3 @@
+I concetti relativi ai sistemi raid sono stati generalizzati ad altri dispositivi di memorizzazione, comprese le unità a nastri e anche alla diffusione dei dati tramite sistemi senza fili (_wireless_). 
+Con strutture raid applicate alle unità a nastri si possono ripristinare i dati anche se uno dei nastri della batteria è danneggiato. 
+Se applicate alla trasmissione dei dati, si divide ogni blocco di dati in unità più piccole che si trasmettono insieme a un’unità di parità; se per qualsiasi ragione una delle unità non viene ricevuta, può essere ricostruita dalle altre. Di solito, con l’uso di unità automatiche dotate di molte unità a nastro si esegue lo striping dei dati su tutte le unità per aumentare il throughput e diminuire il tempo di backup.

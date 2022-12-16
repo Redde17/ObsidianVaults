@@ -64,3 +64,29 @@ Questa tecnica può evitare la maggior parte dei cicli di lettura-modifica-scrit
 Un altro metodo che sta diventando disponibile commercialmente è il raid di livello 1 + 0, in cui si fa prima il mirroring dei dischi a coppie, e poi lo striping di queste coppie. Questo schema raid ha alcuni vantaggi teorici rispetto al raid 0 + 1. Per esempio, se si guasta una singola unità nel raid 0 + 1, l’intera sezione di dati diventa inaccessibile, lasciando disponibile solo l’altra sezione. Con un guasto nel raid 1 + 0, la singola unità diventa inaccessibile, ma il suo duplicato è ancora disponibile, come tutte le altre unità (Figura 11.16).
 
 ![[Pasted image 20221216192055.png]]
+
+Sono state proposte numerose altre varianti agli schemi raid di base illustrati sopra e questo ha portato anche una certa confusione nelle precise definizioni dei diversi livelli raid.
+
+Un altro aspetto soggetto a molte varianti è l’implementazione del raid. 
+Esaminiamo i diversi strati architetturali a cui è possibile implementare un sistema raid.
+
+-   Il software per la gestione dei volumi può implementare un sistema raid all’interno del kernel o a livello dei programmi di sistema. 
+	In questo caso, nonostante i dispositivi per la memorizzazione possano fornire funzionalità minime, è possibile ottenere un sistema raid completo.
+    
+-   Il raid può essere implementato a livello hardware dall’adattatore del bus della macchina (_host bus adapter_, hba). 
+	Solo i dischi connessi direttamente all’hba possono costituire parte integrante di una dato array raid. Questa soluzione è a basso costo, ma non è molto flessibile.
+    
+-   Il raid può essere implementato a livello hardware dall’array di dischi. 
+	È così possibile creare sistemi raid a vari livelli, e persino ricavare da essi volumi più piccoli, che sono quindi presentati al sistema operativo, che avrà solo da realizzare il file system su ciascuno dei volumi. Gli array possono disporre di connessioni multiple o far parte di una rete di memorizzazione secondaria (san), consentendo a varie macchine di sfruttare le funzionalità dell’array.
+    
+-   Il raid può essere implementato da dispositivi di virtualizzazione del disco a livello di interconnessione san. 
+	In questo caso, un dispositivo funge da intermediario tra le macchine e l’area di memorizzazione, accettando istruzioni dai server e gestendo l’accesso alla memoria secondaria. Esso potrebbe, per esempio, attuare il mirroring, trascrivendo ciascun blocco su due distinti dispositivi di memorizzazione.
+
+Ulteriori funzionalità, come quella di istantanea e di replica, possono essere implementate a ognuno di questi livelli.
+Un’istantanea (_snapshot_) è un’immagine del file system così com’era prima dell’ultimo aggiornamento.
+La replica prevede la duplicazione automatica di scritture su siti diversi, per finalità di ridondanza, o di ripristino in caso di eventi disastrosi (_disaster recovery_).
+La replica può essere sincrona o asincrona. Se è sincrona, ciascun blocco deve essere scritto sia localmente, sia in remoto, prima che la scrittura sia considerata completa; se è asincrona, si effettuano periodicamente scritture a gruppi. La replica asincrona espone al rischio di perdere i dati, se il sito principale fallisce, ma è più veloce e non ha limiti di distanza.
+
+L’implementazione di queste funzionalità varia a seconda dello strato scelto per realizzare il sistema raid. Qualora raid, per esempio, sia implementato a livello software, ciascuna macchina può aver necessità di implementare e gestire la replica per proprio conto. Tuttavia, se la replica avviene a livello dell’array di dischi o dell’interconnessione san, si possono replicare i dati della macchina a prescindere dal suo sistema operativo e dalle relative funzionalità.
+
+Un’altra caratteristica spesso presente nei sistemi raid è la previsione di dischi di scorta (_hot spare_), che possono sostituire quelli normali in caso di guasti. Per esempio, un disco di scorta può essere usato per sostituire un disco danneggiato, ricostruendo l’integrità di una coppia in mirroring. In questo modo, si può ristabilire automaticamente lo stato corretto del livello raid, senza attendere che il disco difettoso sia sostituito. È possibile riparare più di un guasto, senza l’intervento di un operatore, con l’allocazione di più dischi di scorta.

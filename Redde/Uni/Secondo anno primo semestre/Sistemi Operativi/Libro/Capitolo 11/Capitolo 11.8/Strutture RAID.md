@@ -8,4 +8,3 @@ Nel passato, strutture raid composte da piccoli dischi economici erano viste com
 ### 11.8.4 [[Scelta di un livello RAID]]
 ### 11.8.5 [[Estensioni]]
 ### 11.8.6 [[Problemi connessi a RAID]]
-### 11.8.7 [[Object storage]]
