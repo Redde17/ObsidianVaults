@@ -1,0 +1,5 @@
+Il meccanismo di base dell’interruzione funziona come segue.
+L’hardware della cpu ha un input, detto linea di richiesta dell’interruzione, del quale la cpu controlla lo stato dopo l’esecuzione di ogni istruzione.
+Quando rileva il segnale di un controllore sulla linea di richiesta dell’interruzione, la cpu salva lo stato corrente e salta alla routine di gestione dell’interruzione (_interrupt-handler routine_), che si trova a un indirizzo prefissato di memoria.
+Questa procedura determina le cause dell’interruzione, porta a termine l’elaborazione necessaria, ripristina lo stato ed esegue un’istruzione return from interrupt per far sì che la cpu ritorni nello stato in cui si trovava prima della sua interruzione. Il controllore del dispositivo _genera_ un’interruzione della cpu sulla linea di richiesta delle interruzioni, che la cpu _rileva_ e _recapita_ al gestore delle interruzioni, che a sua volta _gestisce_ l’interruzione corrispondente servendo il dispositivo.
+Nella seguente figura è riassunto il ciclo di i/o causato da un’interruzione della cpu.

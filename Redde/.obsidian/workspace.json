@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "907b985fd19f5028",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Interruzioni I-O.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Interruzioni I-O.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Interruzioni I-O.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Interruzioni I-O.md"
               }
             }
           }
@@ -136,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "80cced52b099061a",
+  "active": "c30b71aab2fe6079",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Sistemi di I-O.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Introduzione I-O.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Hardware di I-O.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 1 - Introduzione/Capitolo 1.2/Interruzioni.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 6/Capitolo 6.1/Introduzione.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Livelli raid.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Concetti fondamentali.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Lista dei frame liberi.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Prestazioni della paginazione su richiesta.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Paginazione su richiesta.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.1/Introduzione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Gestione delle unità di memoria secondaria.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Formattazione del disco, partizioni e volumi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocco d’avviamento.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.2/Paginazione su richiesta.md"
   ]
 }
