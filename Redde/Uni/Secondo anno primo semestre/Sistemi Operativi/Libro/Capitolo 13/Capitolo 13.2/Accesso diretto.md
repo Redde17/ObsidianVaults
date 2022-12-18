@@ -1,0 +1,16 @@
+Un altro metodo è l’accesso diretto (o accesso relativo). In questo caso, un file è formato da elementi logici (record) di lunghezza fissa; ciò consente ai programmi di leggere e scrivere rapidamente tali elementi senza un ordine particolare. Il metodo ad accesso diretto si fonda su un modello di file che si rifà al disco: i dischi permettono, infatti, l’accesso diretto a ogni blocco di file. Il file si considera come una sequenza numerata di blocchi o record: si può per esempio leggere il blocco 14, quindi il blocco 53 e poi scrivere il blocco 7. 
+Non esistono restrizioni all’ordine di lettura o scrittura di un file ad accesso diretto.
+
+I file ad accesso diretto sono molto utili quando è necessario accedere immediatamente a grandi quantità di informazioni. Spesso le basi di dati sono di questo tipo: quando si presenta un’interrogazione riguardante un oggetto particolare, occorre determinare quale blocco contiene la risposta alla richiesta e quindi leggere direttamente quel blocco, ottenendo così le informazioni richieste.
+
+Per il metodo ad accesso diretto, si devono modificare le operazioni sui file per inserire il numero del blocco in forma di parametro. Quindi, si hanno read(n), dove _n_ è il numero del blocco, al posto di read_next(), e write(n), invece che write_next(). Un metodo alternativo prevede di mantenere read_next() e write_next(), come nell’accesso sequenziale, e di aggiungere un’operazione position_file(n), dove _n_ è il numero del blocco. Quindi un’operazione read(n) corrisponde a una position_file(n) e una read_next().
+
+Il numero del blocco fornito dall’utente al sistema operativo è normalmente un numero di blocco relativo. Si tratta di un indice relativo all’inizio del file, quindi il primo blocco relativo del file è 0, il successivo è 1 e così via, anche se l’indirizzo assoluto nel disco del blocco può essere 14703 per il primo blocco e 3192 per il secondo. L’uso dei numeri di blocco relativi permette al sistema operativo di decidere dove posizionare il file e aiuta a impedire che l’utente acceda a porzioni del file system che possono non far parte del suo file. Alcuni sistemi iniziano la numerazione dei blocchi relativi da 0, altri da 1.
+
+Come soddisfa il sistema operativo una richiesta di un record _N_ in un file? Assumendo che la lunghezza del record logico sia _l_, una richiesta per il record _N_ determina una richiesta di i/o per _l_ byte a partire dalla locazione _l_ * _N_ all’interno del file (assumendo che il primo record sia _N_ = 0). Lettura, scrittura e cancellazione di un record sono rese semplici dalla sua dimensione fissa.
+
+Non tutti i sistemi operativi gestiscono ambedue i tipi di accesso; alcuni permettono il solo accesso sequenziale, altri solo quello diretto. 
+Alcuni sistemi richiedono che si definisca il tipo d’accesso al file al momento della sua creazione; a tale file si può accedere soltanto nel modo definito.
+Tuttavia si può facilmente simulare l’accesso sequenziale a un file ad accesso diretto mantenendo una variabile _cp_ che, come illustra la seguente figura, definisce la nostra posizione corrente. 
+![[Pasted image 20221218205601.png]]
+D’altra parte è estremamente macchinoso e inefficiente simulare l’accesso diretto a un file che di per sé è ad accesso sequenziale.

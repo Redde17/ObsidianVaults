@@ -4,3 +4,4 @@ Una tecnica comune per realizzare la gestione dei tipi di file consiste nell’i
 
 ![[Pasted image 20221218204116.png]]
 
+Queste estensioni non sono sempre necessarie, ma la loro presenza consente a un utente di ridurre il numero dei caratteri specificando il nome del file senza estensione e lasciando all’applicazione il compito di cercare il file con il nome impostato e l’estensione attesa. Poiché queste estensioni non sono gestite dal sistema operativo, si possono considerare un suggerimento rivolto alle applicazioni che operano su di loro.

@@ -1,0 +1,6 @@
+Il più semplice metodo d’accesso è l’accesso sequenziale: le informazioni del file si elaborano ordinatamente, un record dopo l’altro; questo metodo d’accesso è di gran lunga il più comune, ed è usato, per esempio, dagli editor e dai compilatori.
+
+Le più comuni operazioni che si compiono sui file sono le letture e le scritture: un’operazione di lettura – read_next() – legge la prossima porzione di file e fa avanzare automaticamente il puntatore del file che tiene traccia della locazione di i/o; analogamente, un’operazione di scrittura – write_next() – fa un’aggiunta in coda al file e avanza fino alla fine delle informazioni appena scritte, che costituisce la nuova fine del file. Un file siffatto si può reimpostare sull’inizio e, in alcuni sistemi, un programma può riuscire ad andare avanti o indietro di _n_ record, con _n_ intero (in alcuni casi solo per _n_ = 1).
+L’accesso sequenziale è illustrato nella seguente figura. 
+![[Pasted image 20221218205117.png]]
+L’accesso sequenziale utilizza per il file il modello del nastro magnetico, e funziona nei dispositivi ad accesso sequenziale così come nei dispositivi ad accesso diretto.
