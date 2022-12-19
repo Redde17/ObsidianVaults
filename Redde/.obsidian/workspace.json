@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura a grafo aciclico.md",
+                "file": "Directory con struttura a grafo generale.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura a grafo aciclico.md",
+                "file": "Directory con struttura a grafo generale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura a grafo aciclico.md",
+                "file": "Directory con struttura a grafo generale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura a grafo aciclico.md"
+                "file": "Directory con struttura a grafo generale.md"
               }
             }
           }
@@ -185,9 +185,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c30b71aab2fe6079",
+  "active": "62054cdf4df6f2a1",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Struttura delle directory.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura a grafo aciclico.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura ad albero.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.2/Accesso diretto.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.2/Metodi di accesso.md",
@@ -195,7 +196,6 @@
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Struttura interna dei file.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Interfaccia del file system.md",
     "Struttura dei file.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Tipi di file.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Operazioni sui file.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Tipi di file.md"
   ]
 }
