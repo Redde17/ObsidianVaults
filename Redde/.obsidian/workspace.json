@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "b834ded5287108c1",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Interfaccia del file system.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Utilizzo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Interfaccia del file system.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Attributi dei file.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Operazioni sui file.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Tipi di file.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Introduzione I-O.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Hardware di I-O.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Interruzioni I-O.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Sistemi di I-O.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.8/Problemi connessi a RAID.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Interruzioni I-O.md"
   ]
 }
