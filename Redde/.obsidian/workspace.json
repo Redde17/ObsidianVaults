@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.1/Struttura del File System.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.1/Struttura del File System.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.1/Struttura del File System.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.1/Struttura del File System.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md"
               }
             }
           }
@@ -235,15 +235,15 @@
   },
   "active": "b834ded5287108c1",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Utilizzo.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Operazioni del file system.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.1/Struttura del File System.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Metodi di allocazione.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Operazioni del file system.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.1/Struttura del File System.md",
     "Directory con struttura a grafo generale.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Struttura delle directory.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura a grafo aciclico.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura ad albero.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.2/Accesso diretto.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.2/Metodi di accesso.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.3/Directory con struttura ad albero.md"
   ]
 }
