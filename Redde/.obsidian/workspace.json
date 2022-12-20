@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lista lineare.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Allocazione concatenata.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lista lineare.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Allocazione concatenata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lista lineare.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Allocazione concatenata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lista lineare.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Allocazione concatenata.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "b834ded5287108c1",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Allocazione contigua.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Allocazione concatenata.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.4/Metodi di allocazione.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Tabella hash.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Lista lineare.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Utilizzo.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Operazioni del file system.md",
     "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Panoramica.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Interfaccia del file system.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Attributi dei file.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Operazioni sui file.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Tipi di file.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 12/Capitolo 12.1/Introduzione I-O.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 13/Capitolo 13.1/Concetto di file.md"
   ]
 }

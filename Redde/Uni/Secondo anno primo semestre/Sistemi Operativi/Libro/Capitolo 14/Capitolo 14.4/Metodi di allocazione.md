@@ -1,2 +1,4 @@
-### 14.4.1 Allocazione contigua
-### 14.4.2 Allocazione concatenata
+La natura ad accesso diretto dei dischi dà flessibilità nella realizzazione dei file. In quasi tutti i casi, molti file si memorizzano nello stesso disco. Il problema principale consiste dunque nell’allocare lo spazio per questi file in modo che lo spazio nel disco sia usato efficientemente e l’accesso ai file sia rapido. Esistono tre metodi principali per l’allocazione dello spazio di un disco; può essere contigua, concatenata o indicizzata. Ciascuno di questi metodi presenta vantaggi e svantaggi. Anche se alcuni sistemi dispongono di tutti e tre i metodi, più spesso un sistema usa un unico metodo per tutti i file all’interno di un certo tipo di file system.
+
+### 14.4.1 [[Allocazione contigua]]
+### 14.4.2 [[Allocazione concatenata]]
