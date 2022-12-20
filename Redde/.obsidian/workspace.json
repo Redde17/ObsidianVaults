@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione globale e allocazione locale.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione globale e allocazione locale.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione globale e allocazione locale.md",
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione globale e allocazione locale.md"
+                "file": "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Storage-area network e storage array.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "4148ddd9bc478258",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.5/Allocazione dei frame.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine per approssimazione a lru.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Ripetizione.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Domande di preparazione alla prima prova intercorso.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Sintesi dei primi 6 capitoli.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine usate meno recentemente (lru).md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione ottimale delle pagine.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 10/Capitolo 10.4/Sostituzione delle pagine secondo l’ordine d’arrivo (fifo).md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.2/Operazioni del file system.md",
-    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 14/Capitolo 14.3/Realizzazione delle directory.md"
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria su cloud.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria connessa alla rete.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Memoria secondaria connessa alla macchina.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.7/Connessione dei dispositivi di memorizzazione.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocchi difettosi.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Blocco d’avviamento.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Formattazione del disco, partizioni e volumi.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.5/Gestione delle unità di memoria secondaria.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Metodi di connessione alla memoria secondaria.md",
+    "Uni/Secondo anno primo semestre/Sistemi Operativi/Libro/Capitolo 11/Capitolo 11.1/Memoria volatile.md"
   ]
 }
