@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cea0660e05ff465b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,7 +181,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "153d737e7cf38ce8",
+  "active": "cea0660e05ff465b",
   "lastOpenFiles": [
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.4 Progettazione concettuale.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
