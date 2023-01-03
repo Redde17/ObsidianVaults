@@ -37,24 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.5 Modello Entità-Relazione.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.6 Cardinalità delle relazioni.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "cea0660e05ff465b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.5 Modello Entità-Relazione.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.6 Cardinalità delle relazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.5 Modello Entità-Relazione.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.6 Cardinalità delle relazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.5 Modello Entità-Relazione.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.6 Cardinalità delle relazioni.md"
               }
             }
           }
@@ -181,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cea0660e05ff465b",
+  "active": "153d737e7cf38ce8",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.5 Modello Entità-Relazione.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.4 Progettazione concettuale.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.3 Metodologie di progettazione.md",
@@ -191,7 +182,6 @@
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.5 Vantaggi e svantaggi dei DBMS.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.4 Linguaggi e utenti delle basi di dati.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.3 Modelli dei dati.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.2 Basi di dati e DBMS.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.1 Sistemi informativi, informazioni e dati.md"
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/1-Introduzione/1.2 Basi di dati e DBMS.md"
   ]
 }
