@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md"
               }
             }
           }
@@ -185,12 +185,12 @@
   },
   "active": "49ada8058816c272",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.2 Fasi della progettazione logica.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.1 Introduzione.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.11 Strategie di progetto.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.10 Qualità dei modelli concettuali.md",
