@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "845ffe03b43e65d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md"
               }
             }
           }
@@ -183,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49ada8058816c272",
+  "active": "845ffe03b43e65d4",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Informazione incompleta e valori nulli.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Relazioni e basi di dati.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Struttura modello relazionale.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Indice.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.3 Analisi delle prestazioni sullo schema E-R.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.2 Fasi della progettazione logica.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.1 Introduzione.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/Indice.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/Indice.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.11 Strategie di progetto.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.10 Qualità dei modelli concettuali.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/2-Progettazione Concettuale di DB/2.9 Documentazione di schemi E-R.md"
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.1 Introduzione.md"
   ]
 }
