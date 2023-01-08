@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "323155d4e70f331c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Indice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Indice.md"
               }
             }
           }
@@ -195,12 +207,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "845ffe03b43e65d4",
+  "active": "323155d4e70f331c",
   "lastOpenFiles": [
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Informazione incompleta e valori nulli.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Relazioni e basi di dati.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Struttura modello relazionale.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.5 Traduzione verso il modello relazionale.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/3-Progettazione Logica di DB/3.4 Ristrutturazione di schemi E-R.md",
