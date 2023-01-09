@@ -50,5 +50,23 @@ E’ possibile che nessuna tupla degli operandi sia combinabile, e allora si avr
 Quando alcune tuple degli operandi non contribuiscono al risultato, allora tali tuple verranno chiamate dangling e si avrà un join incompleto (in questo caso l’esempio 3 è un join incompleto).
 ![[Pasted image 20230109172051.png]]
 
-#### Cardinalità del join
+##### Cardinalità del join
 Il join di R1 e R2 contiene un numero di n-uple compreso fra 0 e il prodotto di |R1| e |R2|
+- Se il join coinvolge una chiave di R2, allora il numero di n-uple è compreso fra 0 e |R1|; 
+- Se il join coinvolge una chiave di R2 e un vincolo di integrità referenziale, allora il numero di n-uple è pari a |R1|.
+
+#### Join esterno e interno
+Il join esterno (outer join) estende, con valori nulli, le n-uple che verrebbero tagliate fuori da un join interno (inner join). 
+Esistono tre varianti dello join esterno:
+- Sinistro: estende, con valori nulli se necessario, solo le tuple del primo operando; 
+- Destro: che estende solo le tuple del secondo operando; 
+- Completo: estende tutte le tuple di entrambi gli operandi;
+![[Pasted image 20230109172307.png]]
+Se due insiemi 𝑋1 = 𝑋2, l’operazione di join coincide con l’intersezione. Se 𝑋1𝑒 𝑋2 sono disgiunti l’operazione di join coincide con il prodotto cartesiano.
+
+#### Theta-join
+Il theta-join è un operatore derivato (cioè esprimibile per mezzo di altri operatori), come prodotto cartesiano seguito da una selezione: la condizione F è spesso una congiunzione (AND) di atomi di confronto A1 ϑ A2 dove ϑ è uno degli operatori di confronto (=, >, <, …).
+𝑹𝟏 ⊳⊲𝑭 𝑹𝟐 = 𝝈𝑭( 𝑹𝟏 ⊳⊲ 𝑹𝟐)
+Se l'operatore è sempre l'uguaglianza (=) allora si parla di equi-join.
+
+![[Pasted image 20230109172428.png]]

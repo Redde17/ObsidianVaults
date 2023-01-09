@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra relazionale.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra con valori nulli.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra relazionale.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra con valori nulli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra relazionale.md",
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra con valori nulli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra relazionale.md"
+                "file": "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra con valori nulli.md"
               }
             }
           }
@@ -209,11 +209,11 @@
   },
   "active": "323155d4e70f331c",
   "lastOpenFiles": [
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Indice.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Equivalenza di espressioni.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra relazionale.md",
+    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Indice.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Linguaggi per database.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Algebra con valori nulli.md",
-    "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/5-Algebra e calcolo relazionale/Equivalenza di espressioni.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Vincoli di integrità.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Informazione incompleta e valori nulli.md",
     "Uni/Secondo anno primo semestre/Basi Dati/AppuntiAssociazione/4-Modello relazionale/Relazioni e basi di dati.md",

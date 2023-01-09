@@ -1,0 +1,2 @@
+L'algebra relazionale permette di formulare espressioni fra loro equivalenti, cioè che producono lo stesso risultato. 
+L'equivalenza di espressioni dell'algebra è importante nella fase di esecuzione delle query perché i DBMS cercano di eseguire espressioni equivalenti a quelle date, ma meno "costose”. Per questo scopo vengono spesso utilizzate trasformazioni di equivalenza, cioè operazioni che sostituiscono un'espressione con un'altra a essa equivalente: tali trasformazioni riducono le dimensioni dei risultati intermedi.
